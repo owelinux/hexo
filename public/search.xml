@@ -281,11 +281,11 @@
     
     
     <entry>
-      <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
-      <link href="/2018/09/10/2018-09-10-article32-linux-1/"/>
-      <url>/2018/09/10/2018-09-10-article32-linux-1/</url>
+      <title>linux 系统时区更改</title>
+      <link href="/2018/09/10/2018-09-10-article33-linux-2/"/>
+      <url>/2018/09/10/2018-09-10-article33-linux-2/</url>
       
-        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="linux-shell中-amp-gt-file-2-gt-amp-1-1-gt-amp-2区别"><a href="#linux-shell中-amp-gt-file-2-gt-amp-1-1-gt-amp-2区别" class="headerlink" title="linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别"></a>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</h1><p>shell中几个定义：</p><ul><li><p>0：表示标准输入</p></li><li><p>1：表示标准输出</p></li><li><p>2：表示标准错误输出</p></li><li><blockquote><p>：默认为标准输出重定向，与1&gt;相同（替换）</p></blockquote></li><li><blockquote><blockquote><p>：表示标准输出重定向（追加）</p></blockquote></blockquote></li><li><p>2&gt;&amp;1：表示把标准错误输出 重定向到标准输出</p></li><li><p>&amp;&gt;file：表示把标准输出和标准错误输出 都重定向到文件file中 </p></li></ul><p>举例：</p><p>替换：</p><pre><code>grep &quot;aaa&quot; filename &gt; a.log</code></pre><p>追加：</p><pre><code>grep &quot;bbb&quot; filename &gt;&gt;b.log</code></pre><p>2&gt;&amp;1:</p><pre><code>grep &quot;error&quot; filename &gt;/dev/null 2&gt;&amp;1等价于grep &quot;error&quot; filename &gt;/dev/null 2&gt;/dev/null</code></pre><p>&amp;&gt;file:</p><pre><code>grep &quot;error&quot; filename &gt;/dev/null 等价于grep &quot;error&quot; filename &gt;/dev/null 2&gt;/dev/null</code></pre>]]></content>
+        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="linux-系统时区更改"><a href="#linux-系统时区更改" class="headerlink" title="linux 系统时区更改"></a>linux 系统时区更改</h1><p>方法一：</p><pre><code>tzselect</code></pre><p>方法二: 仅限于RedHat Linux 和 CentOS系统 </p><pre><code>timeconfig</code></pre><p>方法三: 适用于Debian</p><pre><code>dpkg-reconfigure tzdata</code></pre><p>方法四: 复制相应的时区文件，替换CentOS系统时区文件；或者创建链接文件 </p><pre><code>cp /usr/share/zoneinfo/EST5EDT /etc/localtime 或者 ln -s /usr/share/zoneinfo/EST5EDT /etc/localtime时间同步 yum instlal ntp -y加入crontab * * * * * /usr/sbin/ntpdate us.pool.ntp.org | logger -t NTP</code></pre><p>时间服务器地址：<br><a href="https://www.ntppool.org/zone">https://www.ntppool.org/zone</a></p>]]></content>
       
       
       <categories>
@@ -306,11 +306,11 @@
     
     
     <entry>
-      <title>linux 系统时区更改</title>
-      <link href="/2018/09/10/2018-09-10-article33-linux-2/"/>
-      <url>/2018/09/10/2018-09-10-article33-linux-2/</url>
+      <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
+      <link href="/2018/09/10/2018-09-10-article32-linux-1/"/>
+      <url>/2018/09/10/2018-09-10-article32-linux-1/</url>
       
-        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="linux-系统时区更改"><a href="#linux-系统时区更改" class="headerlink" title="linux 系统时区更改"></a>linux 系统时区更改</h1><p>方法一：</p><pre><code>tzselect</code></pre><p>方法二: 仅限于RedHat Linux 和 CentOS系统 </p><pre><code>timeconfig</code></pre><p>方法三: 适用于Debian</p><pre><code>dpkg-reconfigure tzdata</code></pre><p>方法四: 复制相应的时区文件，替换CentOS系统时区文件；或者创建链接文件 </p><pre><code>cp /usr/share/zoneinfo/EST5EDT /etc/localtime 或者 ln -s /usr/share/zoneinfo/EST5EDT /etc/localtime时间同步 yum instlal ntp -y加入crontab * * * * * /usr/sbin/ntpdate us.pool.ntp.org | logger -t NTP</code></pre><p>时间服务器地址：<br><a href="https://www.ntppool.org/zone">https://www.ntppool.org/zone</a></p>]]></content>
+        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="linux-shell中-amp-gt-file-2-gt-amp-1-1-gt-amp-2区别"><a href="#linux-shell中-amp-gt-file-2-gt-amp-1-1-gt-amp-2区别" class="headerlink" title="linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别"></a>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</h1><p>shell中几个定义：</p><ul><li><p>0：表示标准输入</p></li><li><p>1：表示标准输出</p></li><li><p>2：表示标准错误输出</p></li><li><blockquote><p>：默认为标准输出重定向，与1&gt;相同（替换）</p></blockquote></li><li><blockquote><blockquote><p>：表示标准输出重定向（追加）</p></blockquote></blockquote></li><li><p>2&gt;&amp;1：表示把标准错误输出 重定向到标准输出</p></li><li><p>&amp;&gt;file：表示把标准输出和标准错误输出 都重定向到文件file中 </p></li></ul><p>举例：</p><p>替换：</p><pre><code>grep &quot;aaa&quot; filename &gt; a.log</code></pre><p>追加：</p><pre><code>grep &quot;bbb&quot; filename &gt;&gt;b.log</code></pre><p>2&gt;&amp;1:</p><pre><code>grep &quot;error&quot; filename &gt;/dev/null 2&gt;&amp;1等价于grep &quot;error&quot; filename &gt;/dev/null 2&gt;/dev/null</code></pre><p>&amp;&gt;file:</p><pre><code>grep &quot;error&quot; filename &gt;/dev/null 等价于grep &quot;error&quot; filename &gt;/dev/null 2&gt;/dev/null</code></pre>]]></content>
       
       
       <categories>
@@ -781,31 +781,6 @@
     
     
     <entry>
-      <title>Linux适用于ssh协议免密登录</title>
-      <link href="/2018/08/08/2018-08-08-article13-linux-ssh-rsync-passwd/"/>
-      <url>/2018/08/08/2018-08-08-article13-linux-ssh-rsync-passwd/</url>
-      
-        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="Linux适用于ssh协议免密登录"><a href="#Linux适用于ssh协议免密登录" class="headerlink" title="Linux适用于ssh协议免密登录"></a>Linux适用于ssh协议免密登录</h1><p>免密应用场景：自动化运维、定时同步、跳板机等</p><h2 id="ssh密钥方式"><a href="#ssh密钥方式" class="headerlink" title="ssh密钥方式"></a>ssh密钥方式</h2><h3 id="生成和导入key"><a href="#生成和导入key" class="headerlink" title="生成和导入key"></a>生成和导入key</h3><p>A服务器执行：</p><pre><code>$ssh-keygen $ll /root/.ssh/总用量 12-rw-------. 1 root root 1675 8月   8 16:39 id_rsa-rw-r--r--. 1 root root  393 8月   8 16:39 id_rsa.pub-rw-r--r--. 1 root root  184 7月  17 16:06 known_hosts</code></pre><blockquote><ul><li>id_rsa:私钥</li><li>id_rsa.pub：公钥</li></ul></blockquote><h3 id="拷贝密钥并授权："><a href="#拷贝密钥并授权：" class="headerlink" title="拷贝密钥并授权："></a>拷贝密钥并授权：</h3><pre><code>方法一：$cat /root/.ssh/id_rsa.pub | ssh root@远程服务器B &#39;cat - &gt;&gt; ~/.ssh/authorized_keys&#39;方法二：$ssh-copy-id  -i /root/.ssh/id_rsa root@远程服务器B</code></pre><h3 id="ssh-config配置"><a href="#ssh-config配置" class="headerlink" title="ssh_config配置"></a>ssh_config配置</h3><blockquote><ul><li>PubkeyAuthentication yes  //将该项改为yes</li><li>UsePAM yes ;如果想禁用密码登录改为：UserPAM no</li></ul></blockquote><h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><pre><code>$ssh root@远程服务器B</code></pre><h3 id="问题排查"><a href="#问题排查" class="headerlink" title="问题排查"></a>问题排查</h3><p>注：对于普通用户authorized_keys的权限必须限定为600（go-rwx），否则普通用户无法实现无密钥访问，而ROOT用户按照默认即可实现无密钥访问<br>chmod go-rwx ~/.ssh/authorized_keys</p><p>不能免密登录多半是权限问题：</p><blockquote><ul><li>.ssh的权限700， </li><li>authorized_keys的权限600</li><li>排错日志：/var/log/secure</li></ul></blockquote><h2 id="rsync-scp-ssh-密码登录"><a href="#rsync-scp-ssh-密码登录" class="headerlink" title="rsync/scp+ssh+密码登录"></a>rsync/scp+ssh+密码登录</h2><pre><code>$yum -y install rsync sshpass</code></pre><p>sshpass常用命令选项：</p><blockquote><ul><li>-f 密码文件</li><li>-p 密码</li><li>-e 密码不显示屏幕   </li></ul></blockquote><pre><code>ssh：$sshpass -f password_filename ssh remote_user@remote_host &#39;df -h&#39;scp:$scp -r /local/dir --rsh=&quot;sshpass -p &#39;my_pass_here&#39; ssh -l remote_user&quot; remote_host:/remote/dirrsync:$rsync --rsh=&quot;sshpass -p &#39;my_pass_here&#39; ssh -l remote_user&quot; remote_host:/remote/dir /local/diror$sshpass -p remote_password rsync -avz --delete -e ssh remote_user@remote_host:/remote/dir /local/dir</code></pre><p>上面的命令中:</p><blockquote><ul><li>remote_use/remote_password是远程的密码</li><li>-avz是打包传送、显示明细、压缩</li><li>-e ssh是关键，即over ssh</li><li>我们要从远程同步到本地</li><li>/remote/dir是远程服务器路径</li><li>/local/dir是本地服务器路径</li></ul></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> linux </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> linux ssh </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>自动化运维之Ansible使用指南</title>
       <link href="/2018/08/08/2018-08-09-article14-linux-ansible/"/>
       <url>/2018/08/08/2018-08-09-article14-linux-ansible/</url>
@@ -823,6 +798,31 @@
         <tags>
             
             <tag> linux ansible 自动化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux适用于ssh协议免密登录</title>
+      <link href="/2018/08/08/2018-08-08-article13-linux-ssh-rsync-passwd/"/>
+      <url>/2018/08/08/2018-08-08-article13-linux-ssh-rsync-passwd/</url>
+      
+        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="Linux适用于ssh协议免密登录"><a href="#Linux适用于ssh协议免密登录" class="headerlink" title="Linux适用于ssh协议免密登录"></a>Linux适用于ssh协议免密登录</h1><p>免密应用场景：自动化运维、定时同步、跳板机等</p><h2 id="ssh密钥方式"><a href="#ssh密钥方式" class="headerlink" title="ssh密钥方式"></a>ssh密钥方式</h2><h3 id="生成和导入key"><a href="#生成和导入key" class="headerlink" title="生成和导入key"></a>生成和导入key</h3><p>A服务器执行：</p><pre><code>$ssh-keygen $ll /root/.ssh/总用量 12-rw-------. 1 root root 1675 8月   8 16:39 id_rsa-rw-r--r--. 1 root root  393 8月   8 16:39 id_rsa.pub-rw-r--r--. 1 root root  184 7月  17 16:06 known_hosts</code></pre><blockquote><ul><li>id_rsa:私钥</li><li>id_rsa.pub：公钥</li></ul></blockquote><h3 id="拷贝密钥并授权："><a href="#拷贝密钥并授权：" class="headerlink" title="拷贝密钥并授权："></a>拷贝密钥并授权：</h3><pre><code>方法一：$cat /root/.ssh/id_rsa.pub | ssh root@远程服务器B &#39;cat - &gt;&gt; ~/.ssh/authorized_keys&#39;方法二：$ssh-copy-id  -i /root/.ssh/id_rsa root@远程服务器B</code></pre><h3 id="ssh-config配置"><a href="#ssh-config配置" class="headerlink" title="ssh_config配置"></a>ssh_config配置</h3><blockquote><ul><li>PubkeyAuthentication yes  //将该项改为yes</li><li>UsePAM yes ;如果想禁用密码登录改为：UserPAM no</li></ul></blockquote><h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><pre><code>$ssh root@远程服务器B</code></pre><h3 id="问题排查"><a href="#问题排查" class="headerlink" title="问题排查"></a>问题排查</h3><p>注：对于普通用户authorized_keys的权限必须限定为600（go-rwx），否则普通用户无法实现无密钥访问，而ROOT用户按照默认即可实现无密钥访问<br>chmod go-rwx ~/.ssh/authorized_keys</p><p>不能免密登录多半是权限问题：</p><blockquote><ul><li>.ssh的权限700， </li><li>authorized_keys的权限600</li><li>排错日志：/var/log/secure</li></ul></blockquote><h2 id="rsync-scp-ssh-密码登录"><a href="#rsync-scp-ssh-密码登录" class="headerlink" title="rsync/scp+ssh+密码登录"></a>rsync/scp+ssh+密码登录</h2><pre><code>$yum -y install rsync sshpass</code></pre><p>sshpass常用命令选项：</p><blockquote><ul><li>-f 密码文件</li><li>-p 密码</li><li>-e 密码不显示屏幕   </li></ul></blockquote><pre><code>ssh：$sshpass -f password_filename ssh remote_user@remote_host &#39;df -h&#39;scp:$scp -r /local/dir --rsh=&quot;sshpass -p &#39;my_pass_here&#39; ssh -l remote_user&quot; remote_host:/remote/dirrsync:$rsync --rsh=&quot;sshpass -p &#39;my_pass_here&#39; ssh -l remote_user&quot; remote_host:/remote/dir /local/diror$sshpass -p remote_password rsync -avz --delete -e ssh remote_user@remote_host:/remote/dir /local/dir</code></pre><p>上面的命令中:</p><blockquote><ul><li>remote_use/remote_password是远程的密码</li><li>-avz是打包传送、显示明细、压缩</li><li>-e ssh是关键，即over ssh</li><li>我们要从远程同步到本地</li><li>/remote/dir是远程服务器路径</li><li>/local/dir是本地服务器路径</li></ul></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux ssh </tag>
             
         </tags>
       
