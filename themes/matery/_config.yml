@@ -166,8 +166,8 @@ text:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatars/avatar.jpg
-  career: 华东师范大学 | 计算机科学与技术 | AntNLP
-  introduction: 我是华东师范大学计算机科学与技术专业2018级硕士研究生。直研进入本校计算机系攻读硕士，研究方向是深度学习与自然语言处理。我们实验室是AntNLP，欢迎大家报考！欢迎关注我的微信公众号「算法码上来」，干货每天不错过！
+  career: 深圳明源云有限公司 | Devops | K8s
+  introduction: 目前就职于深圳明源云有限公司，主要在Devops、k8s，及云原生技术上发展。欢迎来踩
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -240,12 +240,12 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner: godweiyang
+  owner: owelinux
   repo: godweiyang.github.io
   oauth:
     clientId: 查教程获取
     clientSecret: 查教程获取
-  admin: godweiyang
+  admin: owelinux
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
