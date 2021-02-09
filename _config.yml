@@ -141,5 +141,5 @@ live2d:
 baidu_url_submit:
   count: 100
   host: owelinux.github.io
-  token: jp7MKvOw74Yh3F09
+  token: E99vR0MfsDI2CTqt
   path: baidu_urls.txt

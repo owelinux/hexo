@@ -36,7 +36,7 @@
         var _hmt = _hmt || [];
         (function () {
             var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?ce84511d3df71640a9378a69f6293044";
+            hm.src = "https://hm.baidu.com/hm.js?bd662c5b8eaecad53b23ac39c2625e9d";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
@@ -48,7 +48,7 @@
                 var bp = document.createElement('script');
                 var curProtocol = window.location.protocol.split(':')[0];
                 if (curProtocol === 'https') {
-                    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+                    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
                 }
                 else {
                     bp.src = 'http://push.zhanzhang.baidu.com/push.js';
@@ -491,6 +491,37 @@ $(function () {
                 <div class="card-content">
                     
 
+                    
+                    
+
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="music-player">
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'false' === 'true',
+        autoplay: 'true' === 'true',
+        theme: '#542674',
+        loop: 'all',
+        order: 'list',
+        preload: 'auto',
+        volume: Number('0.7'),
+        listFolded: 'false' === 'true',
+        listMaxHeight: '',
+        audio: JSON.parse('[{"name":"夜曲","artist":"周杰伦","url":"/medias/music/yequ.mp3","cover":"/medias/music/avatars/yequ.jpg"},{"name":"一路向北","artist":"周杰伦","url":"/medias/music/yiluxiangbei.mp3","cover":"/medias/music/avatars/yiluxiangbei.jpg"},{"name":"来自天堂的魔鬼","artist":"邓紫棋","url":"/medias/music/tiantangdemogui.mp3","cover":"/medias/music/avatars/tiantangdemogui.jpg"},{"name":"倒数","artist":"邓紫棋","url":"/medias/music/daoshu.mp3","cover":"/medias/music/avatars/daoshu.jpg"}]')
+    });
+});
+</script>
                     
 
                     
@@ -1270,7 +1301,7 @@ $(function () {
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=查教程获取"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E2EQWFD3RR"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -1278,7 +1309,7 @@ $(function () {
     }
 
     gtag('js', new Date());
-    gtag('config', '查教程获取');
+    gtag('config', 'G-E2EQWFD3RR');
 </script>
 
 
@@ -1292,6 +1323,8 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+    
+    <script type="text/javascript" src="/libs/others/snow.js"></script>
     
 
 </body>
