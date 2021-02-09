@@ -72,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/categories/index.html</loc>
+    <loc>https://owelinux.github.io/archives/index.html</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/archives/index.html</loc>
+    <loc>https://owelinux.github.io/categories/index.html</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -100,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/2021/02/09/k8s-cluster/</loc>
+    <loc>https://owelinux.github.io/2021/02/09/jenkins-email/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/2021/02/09/jenkins-email/</loc>
+    <loc>https://owelinux.github.io/2021/02/09/k8s-cluster/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -142,14 +142,14 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/2018/12/05/2018-12-05-article39-linux-jira/</loc>
+    <loc>https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/</loc>
+    <loc>https://owelinux.github.io/2018/12/05/2018-12-05-article39-linux-jira/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -261,6 +261,13 @@
   </url>
   
   <url>
+    <loc>https://owelinux.github.io/2018/08/31/2018-08-31-article23-linux-convirt-create/</loc>
+    
+    <lastmod>2021-02-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://owelinux.github.io/2018/08/30/2018-08-30-article22-linux-convirt/</loc>
     
     <lastmod>2021-02-09</lastmod>
@@ -268,7 +275,7 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/2018/08/31/2018-08-31-article23-linux-convirt-create/</loc>
+    <loc>https://owelinux.github.io/2018/08/24/2018-08-24-article19-linux-telegraf-infludb/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -289,21 +296,7 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/2018/08/24/2018-08-24-article19-linux-telegraf-infludb/</loc>
-    
-    <lastmod>2021-02-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://owelinux.github.io/2018/08/23/2018-08-23-article17-linux-update-es/</loc>
-    
-    <lastmod>2021-02-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://owelinux.github.io/2018/08/23/2018-08-23-article18-linux-es-think/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -317,7 +310,7 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/2018/08/08/2018-08-09-article14-linux-ansible/</loc>
+    <loc>https://owelinux.github.io/2018/08/23/2018-08-23-article18-linux-es-think/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -332,6 +325,13 @@
   
   <url>
     <loc>https://owelinux.github.io/2018/08/21/2018-08-21-article15-linux-curl/</loc>
+    
+    <lastmod>2021-02-09</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://owelinux.github.io/2018/08/08/2018-08-09-article14-linux-ansible/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -424,20 +424,6 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/tags/%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2021-02-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://owelinux.github.io/tags/nginx/</loc>
-    <lastmod>2021-02-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://owelinux.github.io/tags/prometheus-snmp-%E7%9B%91%E6%8E%A7/</loc>
     <lastmod>2021-02-09</lastmod>
     <changefreq>daily</changefreq>
@@ -452,20 +438,6 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/tags/lucene-ELK-kibana/</loc>
-    <lastmod>2021-02-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://owelinux.github.io/tags/nginx-pika-cache/</loc>
-    <lastmod>2021-02-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://owelinux.github.io/tags/linux/</loc>
     <lastmod>2021-02-09</lastmod>
     <changefreq>daily</changefreq>
@@ -473,7 +445,7 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/tags/linux-ansible-%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
+    <loc>https://owelinux.github.io/tags/lucene-ELK-kibana/</loc>
     <lastmod>2021-02-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -487,7 +459,28 @@
   </url>
   
   <url>
+    <loc>https://owelinux.github.io/tags/nginx-pika-cache/</loc>
+    <lastmod>2021-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://owelinux.github.io/tags/linux-ansible-%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
+    <lastmod>2021-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://owelinux.github.io/tags/linux-ELK/</loc>
+    <lastmod>2021-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://owelinux.github.io/tags/linux-telegraf-infludb-granfan/</loc>
     <lastmod>2021-02-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -522,21 +515,7 @@
   </url>
   
   <url>
-    <loc>https://owelinux.github.io/tags/linux-telegraf-infludb-granfan/</loc>
-    <lastmod>2021-02-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://owelinux.github.io/tags/mysql/</loc>
-    <lastmod>2021-02-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://owelinux.github.io/tags/CDH/</loc>
     <lastmod>2021-02-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -550,7 +529,28 @@
   </url>
   
   <url>
+    <loc>https://owelinux.github.io/tags/CDH/</loc>
+    <lastmod>2021-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://owelinux.github.io/tags/linux-docker/</loc>
+    <lastmod>2021-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://owelinux.github.io/tags/%E6%97%A5%E5%BF%97%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2021-02-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://owelinux.github.io/tags/nginx/</loc>
     <lastmod>2021-02-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
