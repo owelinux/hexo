@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>晚点咖啡的博客</title>
+  
+  <subtitle>k8s布道师之路</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://owelinux.github.io/"/>
+  <updated>2021-02-09T02:00:24.581Z</updated>
+  <id>https://owelinux.github.io/</id>
+  
+  <author>
+    <name>bill tang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://owelinux.github.io/2021/02/09/jenkins-email/"/>
+    <id>https://owelinux.github.io/2021/02/09/jenkins-email/</id>
+    <published>2021-02-09T02:00:24.581Z</published>
+    <updated>2021-02-09T02:00:24.581Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;jenkins-devops-piplne发送邮件配置&quot;&gt;&lt;a href=&quot;#jenkins-devops-piplne发送邮件配置&quot; class=&quot;headerlink&quot; title=&quot;jenkins devops
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://owelinux.github.io/2021/02/09/k8s-cluster/"/>
+    <id>https://owelinux.github.io/2021/02/09/k8s-cluster/</id>
+    <published>2021-02-09T02:00:24.581Z</published>
+    <updated>2021-02-09T02:00:24.581Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Kubernetes-配置-kubeconfig-访问多个集群&quot;&gt;&lt;a href=&quot;#Kubernetes-配置-kubeconfig-访问多个集群&quot; class=&quot;headerlink&quot; title=&quot;Kubernetes 配置 kubeconfig
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://owelinux.github.io/2021/02/09/k8s-chong-qi-deployment/"/>
+    <id>https://owelinux.github.io/2021/02/09/k8s-chong-qi-deployment/</id>
+    <published>2021-02-09T02:00:24.581Z</published>
+    <updated>2021-02-09T02:00:24.582Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;K8S重启Deployment的方式&quot;&gt;&lt;a href=&quot;#K8S重启Deployment的方式&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://owelinux.github.io/2021/02/09/2019-01-04-article45-docker/"/>
+    <id>https://owelinux.github.io/2021/02/09/2019-01-04-article45-docker/</id>
+    <published>2021-02-09T02:00:24.580Z</published>
+    <updated>2021-02-09T02:00:24.580Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;精简-Docker-镜像的技巧&quot;&gt;&lt;a href=&quot;#精简-Docker-镜像的技巧&quot; class=&quot;headerlink&quot; title=&quot;精简 Docker 镜像的技巧&quot;&gt;&lt;/a&gt;精简 Docker 镜像的技巧&lt;/h1&gt;&lt;p&gt;精简 Docker
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>kubernetes 之 Ingress 使用总结</title>
+    <link href="https://owelinux.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/"/>
+    <id>https://owelinux.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/</id>
+    <published>2018-12-27T03:21:54.000Z</published>
+    <updated>2021-02-09T02:00:24.579Z</updated>
+    
+    <summary type="html">
+    
+      kubernetes 之 Ingress 使用总结
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>k8s pvc扩容</title>
+    <link href="https://owelinux.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/"/>
+    <id>https://owelinux.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/</id>
+    <published>2018-12-27T03:21:54.000Z</published>
+    <updated>2021-02-09T02:00:24.579Z</updated>
+    
+    <summary type="html">
+    
+      k8s pvc扩容
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jira 配置AD域</title>
+    <link href="https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/"/>
+    <id>https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/</id>
+    <published>2018-12-06T02:23:54.000Z</published>
+    <updated>2021-02-09T02:00:24.578Z</updated>
+    
+    <summary type="html">
+    
+      jira 配置AD域
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitLab Helm Charts 配置AD域</title>
+    <link href="https://owelinux.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/"/>
+    <id>https://owelinux.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/</id>
+    <published>2018-12-06T02:23:54.000Z</published>
+    <updated>2021-02-09T02:00:24.579Z</updated>
+    
+    <summary type="html">
+    
+      GitLab Helm Charts 配置AD域
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JIRA 7.13.0 实践笔记</title>
+    <link href="https://owelinux.github.io/2018/12/05/2018-12-05-article39-linux-jira/"/>
+    <id>https://owelinux.github.io/2018/12/05/2018-12-05-article39-linux-jira/</id>
+    <published>2018-12-05T02:23:54.000Z</published>
+    <updated>2021-02-09T02:00:24.578Z</updated>
+    
+    <summary type="html">
+    
+      JIRA 7.13.0 实践笔记
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker Swarm 学习笔记总结</title>
+    <link href="https://owelinux.github.io/2018/11/28/2018-11-28-article38-docker-swarm/"/>
+    <id>https://owelinux.github.io/2018/11/28/2018-11-28-article38-docker-swarm/</id>
+    <published>2018-11-28T10:23:54.000Z</published>
+    <updated>2021-02-09T02:00:24.577Z</updated>
+    
+    <summary type="html">
+    
+      Docker Swarm 学习笔记总结
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用rpmbuild自定义构建rpm包</title>
+    <link href="https://owelinux.github.io/2018/09/20/2018-09-20-article37-linux-rpmbuild/"/>
+    <id>https://owelinux.github.io/2018/09/20/2018-09-20-article37-linux-rpmbuild/</id>
+    <published>2018-09-20T09:29:54.000Z</published>
+    <updated>2021-02-09T02:00:24.577Z</updated>
+    
+    <summary type="html">
+    
+      使用rpmbuild自定义构建rpm包
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker 系列02-docker常用命令</title>
+    <link href="https://owelinux.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/"/>
+    <id>https://owelinux.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/</id>
+    <published>2018-09-19T02:29:54.000Z</published>
+    <updated>2021-02-09T02:00:24.576Z</updated>
+    
+    <summary type="html">
+    
+      Docker 系列02-docker常用命令
+    
+    </summary>
+    
+      <category term="linux 容器与虚拟化" scheme="https://owelinux.github.io/categories/linux-%E5%AE%B9%E5%99%A8%E4%B8%8E%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+    
+    
+      <category term="linux  docker" scheme="https://owelinux.github.io/tags/linux-docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker 系列01-docker安装</title>
+    <link href="https://owelinux.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/"/>
+    <id>https://owelinux.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/</id>
+    <published>2018-09-12T10:29:54.000Z</published>
+    <updated>2021-02-09T02:00:24.576Z</updated>
+    
+    <summary type="html">
+    
+      Docker 系列01-docker安装
+    
+    </summary>
+    
+      <category term="linux 容器与虚拟化" scheme="https://owelinux.github.io/categories/linux-%E5%AE%B9%E5%99%A8%E4%B8%8E%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+    
+    
+      <category term="linux  docker" scheme="https://owelinux.github.io/tags/linux-docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
+    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article32-linux-1/"/>
+    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article32-linux-1/</id>
+    <published>2018-09-10T10:29:54.000Z</published>
+    <updated>2021-02-09T02:00:24.574Z</updated>
+    
+    <summary type="html">
+    
+      linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux 系统时区更改</title>
+    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article33-linux-2/"/>
+    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article33-linux-2/</id>
+    <published>2018-09-10T10:29:54.000Z</published>
+    <updated>2021-02-09T02:00:24.575Z</updated>
+    
+    <summary type="html">
+    
+      linux 系统时区更改
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux 根据进程/端口排错</title>
+    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article34-linux-3/"/>
+    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article34-linux-3/</id>
+    <published>2018-09-10T10:29:54.000Z</published>
+    <updated>2021-02-09T02:00:24.575Z</updated>
+    
+    <summary type="html">
+    
+      linux 根据进程/端口排错
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Let&#39;s Encrypt通配符HTTPS证书申请</title>
+    <link href="https://owelinux.github.io/2018/09/06/2018-09-06-article31-linux-let-ssl/"/>
+    <id>https://owelinux.github.io/2018/09/06/2018-09-06-article31-linux-let-ssl/</id>
+    <published>2018-09-06T02:44:54.000Z</published>
+    <updated>2021-02-09T02:00:24.574Z</updated>
+    
+    <summary type="html">
+    
+      Let&#39;s Encrypt通配符HTTPS证书申请
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="https" scheme="https://owelinux.github.io/tags/https/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos yum安装mysql5.7</title>
+    <link href="https://owelinux.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/"/>
+    <id>https://owelinux.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</id>
+    <published>2018-09-04T08:02:54.000Z</published>
+    <updated>2021-02-09T02:00:24.573Z</updated>
+    
+    <summary type="html">
+    
+      centos yum安装mysql5.7
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="mysql" scheme="https://owelinux.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CDH 5.15安装文档</title>
+    <link href="https://owelinux.github.io/2018/09/04/2018-09-04-article30-linux-cdh/"/>
+    <id>https://owelinux.github.io/2018/09/04/2018-09-04-article30-linux-cdh/</id>
+    <published>2018-09-04T08:02:54.000Z</published>
+    <updated>2021-02-09T02:00:24.573Z</updated>
+    
+    <summary type="html">
+    
+      CDH 5.15安装文档
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="CDH" scheme="https://owelinux.github.io/tags/CDH/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文件系统（三）fastdfs和其他文件系统区别 </title>
+    <link href="https://owelinux.github.io/2018/09/03/2018-09-03-article27-linux-fastdfs-3/"/>
+    <id>https://owelinux.github.io/2018/09/03/2018-09-03-article27-linux-fastdfs-3/</id>
+    <published>2018-09-03T03:43:54.000Z</published>
+    <updated>2021-02-09T02:00:24.572Z</updated>
+    
+    <summary type="html">
+    
+      本来想写点fastdfs内容，发现有总结非常好的博文，这里拿出来分享给大家
+    
+    </summary>
+    
+      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+    
+    
+      <category term="fastdfs" scheme="https://owelinux.github.io/tags/fastdfs/"/>
+    
+  </entry>
+  
+</feed>
