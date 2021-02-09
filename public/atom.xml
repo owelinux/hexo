@@ -18,28 +18,6 @@
   
   <entry>
     <title></title>
-    <link href="https://owelinux.github.io/2021/02/09/jenkins-email/"/>
-    <id>https://owelinux.github.io/2021/02/09/jenkins-email/</id>
-    <published>2021-02-09T02:00:24.581Z</published>
-    <updated>2021-02-09T02:00:24.581Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;jenkins-devops-piplne发送邮件配置&quot;&gt;&lt;a href=&quot;#jenkins-devops-piplne发送邮件配置&quot; class=&quot;headerlink&quot; title=&quot;jenkins devops
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
     <link href="https://owelinux.github.io/2021/02/09/k8s-cluster/"/>
     <id>https://owelinux.github.io/2021/02/09/k8s-cluster/</id>
     <published>2021-02-09T02:00:24.581Z</published>
@@ -74,6 +52,28 @@
         
         
           &lt;h1 id=&quot;K8S重启Deployment的方式&quot;&gt;&lt;a href=&quot;#K8S重启Deployment的方式&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://owelinux.github.io/2021/02/09/jenkins-email/"/>
+    <id>https://owelinux.github.io/2021/02/09/jenkins-email/</id>
+    <published>2021-02-09T02:00:24.581Z</published>
+    <updated>2021-02-09T02:00:24.581Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;jenkins-devops-piplne发送邮件配置&quot;&gt;&lt;a href=&quot;#jenkins-devops-piplne发送邮件配置&quot; class=&quot;headerlink&quot; title=&quot;jenkins devops
         
       
     
@@ -145,15 +145,15 @@
   </entry>
   
   <entry>
-    <title>jira 配置AD域</title>
-    <link href="https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/"/>
-    <id>https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/</id>
+    <title>GitLab Helm Charts 配置AD域</title>
+    <link href="https://owelinux.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/"/>
+    <id>https://owelinux.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/</id>
     <published>2018-12-06T02:23:54.000Z</published>
-    <updated>2021-02-09T02:00:24.578Z</updated>
+    <updated>2021-02-09T02:00:24.579Z</updated>
     
     <summary type="html">
     
-      jira 配置AD域
+      GitLab Helm Charts 配置AD域
     
     </summary>
     
@@ -165,15 +165,15 @@
   </entry>
   
   <entry>
-    <title>GitLab Helm Charts 配置AD域</title>
-    <link href="https://owelinux.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/"/>
-    <id>https://owelinux.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/</id>
+    <title>jira 配置AD域</title>
+    <link href="https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/"/>
+    <id>https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/</id>
     <published>2018-12-06T02:23:54.000Z</published>
-    <updated>2021-02-09T02:00:24.579Z</updated>
+    <updated>2021-02-09T02:00:24.578Z</updated>
     
     <summary type="html">
     
-      GitLab Helm Charts 配置AD域
+      jira 配置AD域
     
     </summary>
     

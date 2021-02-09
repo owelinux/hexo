@@ -314,19 +314,6 @@ docker image使用的是latest tag，这个latest在docker image registry已经�
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -1036,7 +1023,7 @@ clusters:
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/09/2019-01-04-article45-docker/">
+                <a href="/2021/02/09/jenkins-email/">
                     <div class="card-image">
                         
                         
@@ -1048,8 +1035,12 @@ clusters:
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            精简 Docker 镜像的技巧精简 Docker 镜像的好处很多，不仅可以节省存储空间和带宽，还能减少安全隐患。优化镜像大小的手段多种多样，因服务所使用的基础开发语言不同而有差异。本文将介绍精简 Docker 镜像的几种通用方法。
-精简 D
+                            jenkins devops piplne发送邮件配置准备工作
+安装email-ext-plugin插件
+配置jenkins
+pipline发送邮件
+
+安装email-ext-plugin插件jenkins –&gt; 系统管理 –&gt;
                         
                     </div>
                     <div class="publish-info">

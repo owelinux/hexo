@@ -518,12 +518,47 @@ $(function () {
         volume: Number('0.7'),
         listFolded: 'false' === 'true',
         listMaxHeight: '',
-        audio: JSON.parse('[{"name":"夜曲","artist":"周杰伦","url":"/medias/music/yequ.mp3","cover":"/medias/music/avatars/yequ.jpg"},{"name":"一路向北","artist":"周杰伦","url":"/medias/music/yiluxiangbei.mp3","cover":"/medias/music/avatars/yiluxiangbei.jpg"},{"name":"来自天堂的魔鬼","artist":"邓紫棋","url":"/medias/music/tiantangdemogui.mp3","cover":"/medias/music/avatars/tiantangdemogui.jpg"},{"name":"倒数","artist":"邓紫棋","url":"/medias/music/daoshu.mp3","cover":"/medias/music/avatars/daoshu.jpg"}]')
+        audio: JSON.parse('[{"name":"夜曲","artist":"周杰伦","url":"/medias/music/yequ.mp3","cover":"/medias/music/avatars/yequ.jpg"},{"name":"一路向北","artist":"周杰伦","url":"/medias/music/yiluxiangbei.mp3","cover":"/medias/music/avatars/yiluxiangbei.jpg"},{"name":"来自天堂的魔鬼","artist":"邓紫棋","url":"/medias/music/tiantangdemogui.mp3","cover":"/medias/music/avatars/tiantangdemogui.jpg"},{"name":"倒数","artist":"邓紫棋","url":"/medias/music/daoshu.mp3","cover":"/medias/music/avatars/daoshu.jpg"},{"name":"两个世界","artist":"杨小壮","url":"/medias/music/两个世界.mp3","cover":"/medias/music/avatars/daoshu.jpg"}]')
     });
 });
 </script>
                     
 
+                    
+                    <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
+<div class="video-player">
+    
+    <div class="title center-align">
+        <i class="fa fa-video-camera"></i>&nbsp;&nbsp;邓紫棋 - 差不多姑娘
+    </div>
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="dplayer" class="dplayer-video"
+                    ></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/dplayer/DPlayer.min.js"></script>
+<script>
+    $(function () {
+        new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: 'true' === 'true',
+            theme: '#42b983',
+            loop: 'true' === 'true',
+            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
+            preload: 'auto',
+            volume: Number('0.7'),
+            video: {
+                url: '/medias/video/chabuduoguniang.mp4',
+                pic: '',
+                thumbnails: ''
+            }
+        });
+    });
+</script>
                     
 
                     <div id="recommend-sections" class="recommend">
@@ -543,43 +578,6 @@ $(function () {
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/02/09/jenkins-email/" target="_blank">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="">
-                            
-                            <span class="card-title"></span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                            jenkins devops piplne发送邮件配置准备工作
-安装email-ext-plugin插件
-配置jenkins
-pipline发送邮件
-
-安装email-ext-plugin插件jenkins –&gt; 系统管理 –&gt;
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-02-09
-                            </span>
-                            <span class="publish-author">
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
@@ -633,6 +631,43 @@ clusters:
                             
                             K8S重启Deployment的方式有时候我们会需要重启Deployment，原因可能是：
 docker image使用的是latest tag，这个latest在docker image registry已经更新了，我们需要重启deplo
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-02-09
+                            </span>
+                            <span class="publish-author">
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2021/02/09/jenkins-email/" target="_blank">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="">
+                            
+                            <span class="card-title"></span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                            jenkins devops piplne发送邮件配置准备工作
+安装email-ext-plugin插件
+配置jenkins
+pipline发送邮件
+
+安装email-ext-plugin插件jenkins –&gt; 系统管理 –&gt;
                             
                         </div>
                         <div class="publish-info">
@@ -785,13 +820,13 @@ k8s pvc扩容https://gitlab.com/charts/gitlab/tree/master/doc/advanced/persisten
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2018/12/06/2018-12-06-article40-linux-jira-ad/" target="_blank">
+                    <a href="/2018/12/06/2018-12-11-article41-linux-gitlab-ad/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/26.jpg" class="responsive-img" alt="jira 配置AD域">
+                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="GitLab Helm Charts 配置AD域">
                             
-                            <span class="card-title">jira 配置AD域</span>
+                            <span class="card-title">GitLab Helm Charts 配置AD域</span>
                         </div>
                     </a>
 
@@ -801,9 +836,8 @@ k8s pvc扩容https://gitlab.com/charts/gitlab/tree/master/doc/advanced/persisten
                             
 content{:toc}
 
-jira 配置AD域jira内部认证几种方式：
-1、Microsoft 活动目录
-是配置Windows的AD账号活动目录的，但是我们不选择这个选项，原因：配置此选项，Jira系统会把Windows目录下的所有
+GitLab Helm Charts 配置AD域gitlab部署方式有很多种，比如：官方yum安装、docker容器部署、k8s部署、k8s helm chart部署
+1）在Active Directory中
                             
                         </div>
                         <div class="publish-info">
@@ -837,13 +871,13 @@ jira 配置AD域jira内部认证几种方式：
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2018/12/06/2018-12-11-article41-linux-gitlab-ad/" target="_blank">
+                    <a href="/2018/12/06/2018-12-06-article40-linux-jira-ad/" target="_blank">
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="GitLab Helm Charts 配置AD域">
+                            <img src="/medias/featureimages/26.jpg" class="responsive-img" alt="jira 配置AD域">
                             
-                            <span class="card-title">GitLab Helm Charts 配置AD域</span>
+                            <span class="card-title">jira 配置AD域</span>
                         </div>
                     </a>
 
@@ -853,8 +887,9 @@ jira 配置AD域jira内部认证几种方式：
                             
 content{:toc}
 
-GitLab Helm Charts 配置AD域gitlab部署方式有很多种，比如：官方yum安装、docker容器部署、k8s部署、k8s helm chart部署
-1）在Active Directory中
+jira 配置AD域jira内部认证几种方式：
+1、Microsoft 活动目录
+是配置Windows的AD账号活动目录的，但是我们不选择这个选项，原因：配置此选项，Jira系统会把Windows目录下的所有
                             
                         </div>
                         <div class="publish-info">

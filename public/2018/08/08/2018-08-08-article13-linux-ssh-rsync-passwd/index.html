@@ -321,19 +321,6 @@ $ll /root/.ssh/
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -1075,58 +1062,6 @@ $sshpass -p remote_password rsync -avz --delete -e ssh remote_user@remote_host:/
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2018/08/21/2018-08-21-article15-linux-curl/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="curl常用命令">
-                        
-                        <span class="card-title">curl常用命令</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-content{:toc}
-
-curl常用命令curl介绍curl命令是一个利用URL规则在命令行下工作的文件传输工具。它支持文件的上传和下载，所以是综合传输工具，但按传统，习惯称curl为下载工具。作为一款强力工具，curl支持包括HT
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-08-21
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/linux/" class="post-category" target="_blank">
-                                    linux
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/linux/" target="_blank">
-                        <span class="chip bg-color">linux</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
-            </div>
-            <div class="card">
                 <a href="/2018/08/08/2018-08-09-article14-linux-ansible/">
                     <div class="card-image">
                         
@@ -1146,9 +1081,9 @@ content{:toc}
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-08-08
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-08-08
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1166,6 +1101,59 @@ content{:toc}
                     
                     <a href="/tags/linux-ansible-%E8%87%AA%E5%8A%A8%E5%8C%96/" target="_blank">
                         <span class="chip bg-color">linux ansible 自动化</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2018/08/07/2018-08-07-article12-linux-srcache-nginx-module/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="srcache-nginx-module+pika实现nginx页面缓存">
+                        
+                        <span class="card-title">srcache-nginx-module+pika实现nginx页面缓存</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+content{:toc}
+
+srcache-nginx-module+pika实现nginx页面缓存缓存应用场景：客户端（浏览器缓存）、数据库缓存、代理层缓存、应用层缓存等；
+针对代理层缓存，我们可以将静态资源放入cdn或者本地页面缓存
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-08-07
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/linux/" class="post-category" target="_blank">
+                                    linux
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/nginx-pika-cache/" target="_blank">
+                        <span class="chip bg-color">nginx pika cache</span>
                     </a>
                     
                 </div>

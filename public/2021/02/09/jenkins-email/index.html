@@ -318,19 +318,6 @@ pipline发送邮件
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -1129,12 +1116,11 @@ podTemplate(label: label,cloud: &#39;kubernetes&#39;,containers: [
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2021/02/09/jenkins-email/">
+                <a href="/2021/02/09/k8s-chong-qi-deployment/">
                     <div class="card-image">
                         
                         
@@ -1146,24 +1132,19 @@ podTemplate(label: label,cloud: &#39;kubernetes&#39;,containers: [
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            jenkins devops piplne发送邮件配置准备工作
-安装email-ext-plugin插件
-配置jenkins
-pipline发送邮件
-
-安装email-ext-plugin插件jenkins –&gt; 系统管理 –&gt;
+                            K8S重启Deployment的方式有时候我们会需要重启Deployment，原因可能是：
+docker image使用的是latest tag，这个latest在docker image registry已经更新了，我们需要重启deplo
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2021-02-09
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2021-02-09
+                        </span>
                         <span class="publish-author">
                             
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -1174,7 +1155,7 @@ pipline发送邮件
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2021/02/09/k8s-cluster/">
+                <a href="/2021/02/09/2019-01-04-article45-docker/">
                     <div class="card-image">
                         
                         
@@ -1186,10 +1167,8 @@ pipline发送邮件
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Kubernetes 配置 kubeconfig 访问多个集群test集群（~/.kube/config）apiVersion: v1
-clusters:
-- cluster:
-    insecure-skip-tls-verify: t
+                            精简 Docker 镜像的技巧精简 Docker 镜像的好处很多，不仅可以节省存储空间和带宽，还能减少安全隐患。优化镜像大小的手段多种多样，因服务所使用的基础开发语言不同而有差异。本文将介绍精简 Docker 镜像的几种通用方法。
+精简 D
                         
                     </div>
                     <div class="publish-info">

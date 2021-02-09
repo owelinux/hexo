@@ -317,19 +317,6 @@ GitLab Helm Charts 配置AD域gitlab部署方式有很多种，比如：官方yu
 </header>
 
     
-<script src="/libs/cryptojs/crypto-js.min.js"></script>
-<script>
-    (function() {
-        let pwd = '';
-        if (pwd && pwd.length > 0) {
-            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
-                alert('密码错误，将返回主页！');
-                location.href = '/';
-            }
-        }
-    })();
-</script>
-
 
 
 
@@ -1078,13 +1065,13 @@ EOS
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2018/12/06/2018-12-06-article40-linux-jira-ad/">
+                <a href="/2018/12/27/2018-12-28-article44-k8s-pvc/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/26.jpg" class="responsive-img" alt="jira 配置AD域">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="k8s pvc扩容">
                         
-                        <span class="card-title">jira 配置AD域</span>
+                        <span class="card-title">k8s pvc扩容</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1093,14 +1080,13 @@ EOS
                             
 content{:toc}
 
-jira 配置AD域jira内部认证几种方式：
-1、Microsoft 活动目录
-是配置Windows的AD账号活动目录的，但是我们不选择这个选项，原因：配置此选项，Jira系统会把Windows目录下的所有
+k8s pvc扩容https://gitlab.com/charts/gitlab/tree/master/doc/advanced/persistent-volumes
+
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-06
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-27
                         </span>
                         <span class="publish-author">
                             
@@ -1132,13 +1118,13 @@ jira 配置AD域jira内部认证几种方式：
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/12/05/2018-12-05-article39-linux-jira/">
+                <a href="/2018/12/06/2018-12-06-article40-linux-jira-ad/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="JIRA 7.13.0 实践笔记">
+                        <img src="/medias/featureimages/26.jpg" class="responsive-img" alt="jira 配置AD域">
                         
-                        <span class="card-title">JIRA 7.13.0 实践笔记</span>
+                        <span class="card-title">jira 配置AD域</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -1147,24 +1133,14 @@ jira 配置AD域jira内部认证几种方式：
                             
 content{:toc}
 
-JIRA 7.13.0 实践笔记jira有以下几种安装方式：
-
-Docker容器部署
-
-K8s helm部署
-
-k8s 部署
-
-直接安装 
-
-
-其中helm安装：helm安装,下面详细介绍容器部署。
-镜像构建
+jira 配置AD域jira内部认证几种方式：
+1、Microsoft 活动目录
+是配置Windows的AD账号活动目录的，但是我们不选择这个选项，原因：配置此选项，Jira系统会把Windows目录下的所有
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-05
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-06
                             </span>
                         <span class="publish-author">
                             
