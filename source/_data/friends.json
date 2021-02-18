@@ -1,15 +1,15 @@
 [
     {
-        "name": "知乎专栏",
-        "url": "https://zhuanlan.zhihu.com/godweiyang",
-        "title": "访问主页",
-        "introduction": "算法码上来",
-        "avatar": "/medias/avatars/myzhihu.png"
-    },{
         "name": "坚若磐石",
         "url": "blog.linuxnb.com",
         "title": "访问主页",
         "introduction": "我们一直想学会平静，其实吧，这事儿不用学，经历的多了，就平静了。",
         "avatar": "https://blog.linuxnb.com/favicon.ico"
+    },{
+        "name": "知乎专栏",
+        "url": "https://zhuanlan.zhihu.com/godweiyang",
+        "title": "访问主页",
+        "introduction": "算法码上来",
+        "avatar": "/medias/avatars/myzhihu.png"
     }
 ]
