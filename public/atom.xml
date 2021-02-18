@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://owelinux.github.io/"/>
-  <updated>2021-02-09T02:00:24.581Z</updated>
+  <updated>2021-02-18T06:47:38.413Z</updated>
   <id>https://owelinux.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>个人收藏工具</title>
+    <link href="https://owelinux.github.io/2021/02/18/ge-ren-shou-cang-gong-ju/"/>
+    <id>https://owelinux.github.io/2021/02/18/ge-ren-shou-cang-gong-ju/</id>
+    <published>2021-02-18T06:46:25.000Z</published>
+    <updated>2021-02-18T06:47:38.413Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;在线工具&quot;&gt;&lt;a href=&quot;#在线工具&quot; class=&quot;headerlink&quot; title=&quot;在线工具&quot;&gt;&lt;/a&gt;在线工具&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -285,15 +308,15 @@
   </entry>
   
   <entry>
-    <title>linux 系统时区更改</title>
-    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article33-linux-2/"/>
-    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article33-linux-2/</id>
+    <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
+    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article32-linux-1/"/>
+    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article32-linux-1/</id>
     <published>2018-09-10T10:29:54.000Z</published>
-    <updated>2021-02-09T02:00:24.575Z</updated>
+    <updated>2021-02-09T02:00:24.574Z</updated>
     
     <summary type="html">
     
-      linux 系统时区更改
+      linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别
     
     </summary>
     
@@ -305,15 +328,15 @@
   </entry>
   
   <entry>
-    <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
-    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article32-linux-1/"/>
-    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article32-linux-1/</id>
+    <title>linux 系统时区更改</title>
+    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article33-linux-2/"/>
+    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article33-linux-2/</id>
     <published>2018-09-10T10:29:54.000Z</published>
-    <updated>2021-02-09T02:00:24.574Z</updated>
+    <updated>2021-02-09T02:00:24.575Z</updated>
     
     <summary type="html">
     
-      linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别
+      linux 系统时区更改
     
     </summary>
     
@@ -401,26 +424,6 @@
     
     
       <category term="CDH" scheme="https://owelinux.github.io/tags/CDH/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>文件系统（三）fastdfs和其他文件系统区别 </title>
-    <link href="https://owelinux.github.io/2018/09/03/2018-09-03-article27-linux-fastdfs-3/"/>
-    <id>https://owelinux.github.io/2018/09/03/2018-09-03-article27-linux-fastdfs-3/</id>
-    <published>2018-09-03T03:43:54.000Z</published>
-    <updated>2021-02-09T02:00:24.572Z</updated>
-    
-    <summary type="html">
-    
-      本来想写点fastdfs内容，发现有总结非常好的博文，这里拿出来分享给大家
-    
-    </summary>
-    
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
-    
-    
-      <category term="fastdfs" scheme="https://owelinux.github.io/tags/fastdfs/"/>
     
   </entry>
   
