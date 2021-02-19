@@ -312,7 +312,7 @@ busuanziStatistics:
 # 添加 Google Analytics 配置
 googleAnalytics:
   enable: true
-  id: G-E2EQWFD3RR ##UA-122307453-1
+  id: G-32SBS7476D ##UA-122307453-1
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
 # If the specific version is not specified below, you can use the latest version.

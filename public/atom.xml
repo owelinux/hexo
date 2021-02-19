@@ -5,9 +5,9 @@
   <subtitle>k8s布道师之路</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://owelinux.github.io/"/>
+  <link href="https://lovek8s.github.io/"/>
   <updated>2021-02-18T06:47:38.413Z</updated>
-  <id>https://owelinux.github.io/</id>
+  <id>https://lovek8s.github.io/</id>
   
   <author>
     <name>bill tang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>个人收藏工具</title>
-    <link href="https://owelinux.github.io/2021/02/18/ge-ren-shou-cang-gong-ju/"/>
-    <id>https://owelinux.github.io/2021/02/18/ge-ren-shou-cang-gong-ju/</id>
+    <link href="https://lovek8s.github.io/2021/02/18/ge-ren-shou-cang-gong-ju/"/>
+    <id>https://lovek8s.github.io/2021/02/18/ge-ren-shou-cang-gong-ju/</id>
     <published>2021-02-18T06:46:25.000Z</published>
     <updated>2021-02-18T06:47:38.413Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title></title>
-    <link href="https://owelinux.github.io/2021/02/09/jenkins-email/"/>
-    <id>https://owelinux.github.io/2021/02/09/jenkins-email/</id>
+    <link href="https://lovek8s.github.io/2021/02/09/jenkins-email/"/>
+    <id>https://lovek8s.github.io/2021/02/09/jenkins-email/</id>
     <published>2021-02-09T02:00:24.581Z</published>
     <updated>2021-02-09T02:00:24.581Z</updated>
     
@@ -63,8 +63,8 @@
   
   <entry>
     <title></title>
-    <link href="https://owelinux.github.io/2021/02/09/k8s-cluster/"/>
-    <id>https://owelinux.github.io/2021/02/09/k8s-cluster/</id>
+    <link href="https://lovek8s.github.io/2021/02/09/k8s-cluster/"/>
+    <id>https://lovek8s.github.io/2021/02/09/k8s-cluster/</id>
     <published>2021-02-09T02:00:24.581Z</published>
     <updated>2021-02-09T02:00:24.581Z</updated>
     
@@ -85,8 +85,8 @@
   
   <entry>
     <title></title>
-    <link href="https://owelinux.github.io/2021/02/09/k8s-chong-qi-deployment/"/>
-    <id>https://owelinux.github.io/2021/02/09/k8s-chong-qi-deployment/</id>
+    <link href="https://lovek8s.github.io/2021/02/09/k8s-chong-qi-deployment/"/>
+    <id>https://lovek8s.github.io/2021/02/09/k8s-chong-qi-deployment/</id>
     <published>2021-02-09T02:00:24.581Z</published>
     <updated>2021-02-09T02:00:24.582Z</updated>
     
@@ -107,8 +107,8 @@
   
   <entry>
     <title></title>
-    <link href="https://owelinux.github.io/2021/02/09/2019-01-04-article45-docker/"/>
-    <id>https://owelinux.github.io/2021/02/09/2019-01-04-article45-docker/</id>
+    <link href="https://lovek8s.github.io/2021/02/09/2019-01-04-article45-docker/"/>
+    <id>https://lovek8s.github.io/2021/02/09/2019-01-04-article45-docker/</id>
     <published>2021-02-09T02:00:24.580Z</published>
     <updated>2021-02-09T02:00:24.580Z</updated>
     
@@ -129,8 +129,8 @@
   
   <entry>
     <title>kubernetes 之 Ingress 使用总结</title>
-    <link href="https://owelinux.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/"/>
-    <id>https://owelinux.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/</id>
+    <link href="https://lovek8s.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/"/>
+    <id>https://lovek8s.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/</id>
     <published>2018-12-27T03:21:54.000Z</published>
     <updated>2021-02-09T02:00:24.579Z</updated>
     
@@ -140,17 +140,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>k8s pvc扩容</title>
-    <link href="https://owelinux.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/"/>
-    <id>https://owelinux.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/</id>
+    <link href="https://lovek8s.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/"/>
+    <id>https://lovek8s.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/</id>
     <published>2018-12-27T03:21:54.000Z</published>
     <updated>2021-02-09T02:00:24.579Z</updated>
     
@@ -160,17 +160,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>jira 配置AD域</title>
-    <link href="https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/"/>
-    <id>https://owelinux.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/</id>
+    <link href="https://lovek8s.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/"/>
+    <id>https://lovek8s.github.io/2018/12/06/2018-12-06-article40-linux-jira-ad/</id>
     <published>2018-12-06T02:23:54.000Z</published>
     <updated>2021-02-09T02:00:24.578Z</updated>
     
@@ -180,17 +180,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>GitLab Helm Charts 配置AD域</title>
-    <link href="https://owelinux.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/"/>
-    <id>https://owelinux.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/</id>
+    <link href="https://lovek8s.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/"/>
+    <id>https://lovek8s.github.io/2018/12/06/2018-12-11-article41-linux-gitlab-ad/</id>
     <published>2018-12-06T02:23:54.000Z</published>
     <updated>2021-02-09T02:00:24.579Z</updated>
     
@@ -200,17 +200,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>JIRA 7.13.0 实践笔记</title>
-    <link href="https://owelinux.github.io/2018/12/05/2018-12-05-article39-linux-jira/"/>
-    <id>https://owelinux.github.io/2018/12/05/2018-12-05-article39-linux-jira/</id>
+    <link href="https://lovek8s.github.io/2018/12/05/2018-12-05-article39-linux-jira/"/>
+    <id>https://lovek8s.github.io/2018/12/05/2018-12-05-article39-linux-jira/</id>
     <published>2018-12-05T02:23:54.000Z</published>
     <updated>2021-02-09T02:00:24.578Z</updated>
     
@@ -220,17 +220,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>Docker Swarm 学习笔记总结</title>
-    <link href="https://owelinux.github.io/2018/11/28/2018-11-28-article38-docker-swarm/"/>
-    <id>https://owelinux.github.io/2018/11/28/2018-11-28-article38-docker-swarm/</id>
+    <link href="https://lovek8s.github.io/2018/11/28/2018-11-28-article38-docker-swarm/"/>
+    <id>https://lovek8s.github.io/2018/11/28/2018-11-28-article38-docker-swarm/</id>
     <published>2018-11-28T10:23:54.000Z</published>
     <updated>2021-02-09T02:00:24.577Z</updated>
     
@@ -240,17 +240,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>使用rpmbuild自定义构建rpm包</title>
-    <link href="https://owelinux.github.io/2018/09/20/2018-09-20-article37-linux-rpmbuild/"/>
-    <id>https://owelinux.github.io/2018/09/20/2018-09-20-article37-linux-rpmbuild/</id>
+    <link href="https://lovek8s.github.io/2018/09/20/2018-09-20-article37-linux-rpmbuild/"/>
+    <id>https://lovek8s.github.io/2018/09/20/2018-09-20-article37-linux-rpmbuild/</id>
     <published>2018-09-20T09:29:54.000Z</published>
     <updated>2021-02-09T02:00:24.577Z</updated>
     
@@ -260,17 +260,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>Docker 系列02-docker常用命令</title>
-    <link href="https://owelinux.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/"/>
-    <id>https://owelinux.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/</id>
+    <link href="https://lovek8s.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/"/>
+    <id>https://lovek8s.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/</id>
     <published>2018-09-19T02:29:54.000Z</published>
     <updated>2021-02-09T02:00:24.576Z</updated>
     
@@ -280,17 +280,17 @@
     
     </summary>
     
-      <category term="linux 容器与虚拟化" scheme="https://owelinux.github.io/categories/linux-%E5%AE%B9%E5%99%A8%E4%B8%8E%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+      <category term="linux 容器与虚拟化" scheme="https://lovek8s.github.io/categories/linux-%E5%AE%B9%E5%99%A8%E4%B8%8E%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
     
     
-      <category term="linux  docker" scheme="https://owelinux.github.io/tags/linux-docker/"/>
+      <category term="linux  docker" scheme="https://lovek8s.github.io/tags/linux-docker/"/>
     
   </entry>
   
   <entry>
     <title>Docker 系列01-docker安装</title>
-    <link href="https://owelinux.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/"/>
-    <id>https://owelinux.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/</id>
+    <link href="https://lovek8s.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/"/>
+    <id>https://lovek8s.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/</id>
     <published>2018-09-12T10:29:54.000Z</published>
     <updated>2021-02-09T02:00:24.576Z</updated>
     
@@ -300,17 +300,17 @@
     
     </summary>
     
-      <category term="linux 容器与虚拟化" scheme="https://owelinux.github.io/categories/linux-%E5%AE%B9%E5%99%A8%E4%B8%8E%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+      <category term="linux 容器与虚拟化" scheme="https://lovek8s.github.io/categories/linux-%E5%AE%B9%E5%99%A8%E4%B8%8E%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
     
     
-      <category term="linux  docker" scheme="https://owelinux.github.io/tags/linux-docker/"/>
+      <category term="linux  docker" scheme="https://lovek8s.github.io/tags/linux-docker/"/>
     
   </entry>
   
   <entry>
     <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
-    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article32-linux-1/"/>
-    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article32-linux-1/</id>
+    <link href="https://lovek8s.github.io/2018/09/10/2018-09-10-article32-linux-1/"/>
+    <id>https://lovek8s.github.io/2018/09/10/2018-09-10-article32-linux-1/</id>
     <published>2018-09-10T10:29:54.000Z</published>
     <updated>2021-02-09T02:00:24.574Z</updated>
     
@@ -320,17 +320,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>linux 系统时区更改</title>
-    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article33-linux-2/"/>
-    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article33-linux-2/</id>
+    <link href="https://lovek8s.github.io/2018/09/10/2018-09-10-article33-linux-2/"/>
+    <id>https://lovek8s.github.io/2018/09/10/2018-09-10-article33-linux-2/</id>
     <published>2018-09-10T10:29:54.000Z</published>
     <updated>2021-02-09T02:00:24.575Z</updated>
     
@@ -340,17 +340,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>linux 根据进程/端口排错</title>
-    <link href="https://owelinux.github.io/2018/09/10/2018-09-10-article34-linux-3/"/>
-    <id>https://owelinux.github.io/2018/09/10/2018-09-10-article34-linux-3/</id>
+    <link href="https://lovek8s.github.io/2018/09/10/2018-09-10-article34-linux-3/"/>
+    <id>https://lovek8s.github.io/2018/09/10/2018-09-10-article34-linux-3/</id>
     <published>2018-09-10T10:29:54.000Z</published>
     <updated>2021-02-09T02:00:24.575Z</updated>
     
@@ -360,17 +360,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="linux" scheme="https://owelinux.github.io/tags/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>Let&#39;s Encrypt通配符HTTPS证书申请</title>
-    <link href="https://owelinux.github.io/2018/09/06/2018-09-06-article31-linux-let-ssl/"/>
-    <id>https://owelinux.github.io/2018/09/06/2018-09-06-article31-linux-let-ssl/</id>
+    <link href="https://lovek8s.github.io/2018/09/06/2018-09-06-article31-linux-let-ssl/"/>
+    <id>https://lovek8s.github.io/2018/09/06/2018-09-06-article31-linux-let-ssl/</id>
     <published>2018-09-06T02:44:54.000Z</published>
     <updated>2021-02-09T02:00:24.574Z</updated>
     
@@ -380,17 +380,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="https" scheme="https://owelinux.github.io/tags/https/"/>
+      <category term="https" scheme="https://lovek8s.github.io/tags/https/"/>
     
   </entry>
   
   <entry>
     <title>centos yum安装mysql5.7</title>
-    <link href="https://owelinux.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/"/>
-    <id>https://owelinux.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</id>
+    <link href="https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/"/>
+    <id>https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</id>
     <published>2018-09-04T08:02:54.000Z</published>
     <updated>2021-02-09T02:00:24.573Z</updated>
     
@@ -400,17 +400,17 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="mysql" scheme="https://owelinux.github.io/tags/mysql/"/>
+      <category term="mysql" scheme="https://lovek8s.github.io/tags/mysql/"/>
     
   </entry>
   
   <entry>
     <title>CDH 5.15安装文档</title>
-    <link href="https://owelinux.github.io/2018/09/04/2018-09-04-article30-linux-cdh/"/>
-    <id>https://owelinux.github.io/2018/09/04/2018-09-04-article30-linux-cdh/</id>
+    <link href="https://lovek8s.github.io/2018/09/04/2018-09-04-article30-linux-cdh/"/>
+    <id>https://lovek8s.github.io/2018/09/04/2018-09-04-article30-linux-cdh/</id>
     <published>2018-09-04T08:02:54.000Z</published>
     <updated>2021-02-09T02:00:24.573Z</updated>
     
@@ -420,10 +420,10 @@
     
     </summary>
     
-      <category term="linux" scheme="https://owelinux.github.io/categories/linux/"/>
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
     
     
-      <category term="CDH" scheme="https://owelinux.github.io/tags/CDH/"/>
+      <category term="CDH" scheme="https://lovek8s.github.io/tags/CDH/"/>
     
   </entry>
   
