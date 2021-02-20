@@ -4,12 +4,16 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="jekyll+github搭建博客, ECNU NLP DeepLearning AntNLP  自然语言处理 深度学习">
+    <meta name="keywords" content="Lnmp一键部署脚本, ECNU NLP Linux 云原生  k8s Devops">
     <meta name="baidu-site-verification" content="code-vqYFZZYjVz" />
     <meta name="google-site-verification" content="yCy2azpds5XSuGZvis6OuA-XIGF5GuGpYRAaGfD6o48" />
     <meta name="360-site-verification" content="b7c11a830ef90fd1464ad6206bb7b6e7" />
-    <meta name="description" content="博客有很多搭建方式，以下简单说一下jekyll+github搭建方法。
-1. 安装 ruby 和 jekyll 环境这一步和第5步主要是为了让博客系统在本地跑起来，如果不想在本地运行，可以无视这两步，但我还是强烈建议试着先在本地跑起来，没有">
+    <meta name="description" content="Lnmp一键部署脚本#!/bin/bash
+##DATE:2016-7-25
+##USER:owelinux
+###install wallet
+
+#######install mysql##########################">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +21,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>jekyll+github搭建博客 | 晚点咖啡的博客</title>
+    <title>Lnmp一键部署脚本 | 晚点咖啡的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -167,7 +171,7 @@
         <div class="logo-name">晚点咖啡的博客</div>
         <div class="logo-desc">
             
-            深圳明源云有限公司 | Devops | k8s
+            人的👨一生在于奋斗，在于追求。
             
         </div>
     </div>
@@ -260,7 +264,7 @@
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        jekyll+github搭建博客
+                        Lnmp一键部署脚本
                     </div>
                 </div>
             </div>
@@ -371,8 +375,8 @@
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/%E5%8D%9A%E5%AE%A2/" target="_blank">
-                            <span class="chip bg-color">博客</span>
+                        <a href="/tags/lnmp/" target="_blank">
+                            <span class="chip bg-color">lnmp</span>
                         </a>
                         
                     </div>
@@ -383,8 +387,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category" target="_blank">
-                            随笔
+                        <a href="/categories/linux/" class="post-category" target="_blank">
+                            linux
                         </a>
                         
                     </div>
@@ -395,7 +399,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-07-14
+                    2018-07-16
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -409,14 +413,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    1.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    10 分
                 </div>
                 
                 
@@ -432,109 +436,344 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>博客有很多搭建方式，以下简单说一下jekyll+github搭建方法。</p>
-<h3 id="1-安装-ruby-和-jekyll-环境"><a href="#1-安装-ruby-和-jekyll-环境" class="headerlink" title="1. 安装 ruby 和 jekyll 环境"></a>1. 安装 ruby 和 jekyll 环境</h3><p>这一步和第5步主要是为了让博客系统在本地跑起来，如果不想在本地运行，可以无视这两步，但我还是强烈建议试着先在本地跑起来，没有什么问题后再推送的 GitHub 上。</p>
-<p>Windows 用户可以直接使用 <a target="_blank" rel="noopener" href="http://rubyinstaller.org/">RubyInstaller</a> 安装 ruby 环境。后续的操作中可能还会提示安装 DevKit，根据提示操作即可。</p>
-<p>建议使用 <a target="_blank" rel="noopener" href="https://gems.ruby-china.org/">RubyGems 镜像- Ruby China</a> 安装 jekyll。</p>
-<p>更换 gen源 命令如下</p>
-<pre><code>gem update --system # 尽可能用比较新的RubyGems 版本，建议 2.6.x 以上
-gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
-gem sources -l  # 确保只有 gems.ruby-china.com
-bundle config mirror.https://rubygems.org https://gems.ruby-china.com # 采用 Bundler 的 Gem 源代码镜像命令
-</code></pre>
-<p>安装 jekyll 命令如下</p>
-<pre><code>gem install jekyll
-</code></pre>
-<p>详情可以查看 jekyll 官网。<a target="_blank" rel="noopener" href="https://jekyllrb.com/">https://jekyllrb.com/</a> 或 中文翻译版 jekyll 官网<a target="_blank" rel="noopener" href="http://jekyllcn.com/">http://jekyllcn.com/</a> （中文文档翻译落后于英文官网，有兴趣有时间的小伙伴可以参与翻译，为开源世界贡献一份力哦~）</p>
-<p>在 mac OS X El Capitan 系统下安装可能会出现问题，解决方案详情见 jekyll 官网: <a target="_blank" rel="noopener" href="https://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011"> https://jekyllrb.com/docs/troubleshooting/#jekyll-amp-mac-os-x-1011</a></p>
-<p>对 jekyll 本身感兴趣的同学可以看看 jekyll 源码: <a target="_blank" rel="noopener" href="https://github.com/jekyll/jekyll">https://github.com/jekyll/jekyll</a></p>
-<p><img src="http://jekyllcn.com/img/logo-2x.png" alt="jekyll logo"></p>
-<h3 id="2-选择自己喜欢的博客主题"><a href="#2-选择自己喜欢的博客主题" class="headerlink" title="2. 选择自己喜欢的博客主题"></a>2. 选择自己喜欢的博客主题</h3><p>可以直接 clone 、下载 或 fork 这个仓库的代码即可</p>
-<h3 id="3-修改参数"><a href="#3-修改参数" class="headerlink" title="3. 修改参数"></a>3. 修改参数</h3><p>主要修改 <code>_config.yml</code> 中的参数和自己的网站小图<code>favicon.ico</code></p>
-<p><code>_config.yml</code>文件中</p>
-<h4 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h4><p>主要用于网站头部header。</p>
-<pre class="line-numbers language-yml"><code class="language-yml"># Site settings
-title: HyG
-brief-intro: xxxx
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://username.github.io" # the base hostname & protocol for your site
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="链接信息"><a href="#链接信息" class="headerlink" title="链接信息"></a>链接信息</h4><p>主要用于网站底部footer。</p>
-<pre class="line-numbers language-yml"><code class="language-yml"># other links
-twitter_username: username
-facebook_username: username
-github_username:  username
-email: username@qq.com
-weibo_username: username
-zhihu_username: username
-linkedIn_username: username
-dribbble_username:
+                <h2 id="Lnmp一键部署脚本"><a href="#Lnmp一键部署脚本" class="headerlink" title="Lnmp一键部署脚本"></a>Lnmp一键部署脚本</h2><pre><code>#!/bin/bash
+##DATE:2016-7-25
+##USER:owelinux
+###install wallet
 
-description_footer: 本站记录xxx！
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="评论信息"><a href="#评论信息" class="headerlink" title="评论信息"></a>评论信息</h4><p>获取<code>short_name</code>的方法：</p>
-<p>访问 <a target="_blank" rel="noopener" href="https://disqus.com/">https://disqus.com/</a> 或 <a target="_blank" rel="noopener" href="http://duoshuo.com/">http://duoshuo.com/</a> 根据提示操作即可。</p>
-<pre class="line-numbers language-yml"><code class="language-yml"># comments
-# two ways to comment, only choose one, and use your own short name
-# 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: shortname
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>运行成功后，可以在 disqus 或 多说 的后台管理页看到相关信息。</p>
-<h4 id="统计信息"><a href="#统计信息" class="headerlink" title="统计信息"></a>统计信息</h4><p>获取 百度统计id 或 Google Analytics id 的方法：</p>
-<p>访问 <a target="_blank" rel="noopener" href="http://tongji.baidu.com/">http://tongji.baidu.com/</a> 或 <a target="_blank" rel="noopener" href="https://www.google.com/analytics/">https://www.google.com/analytics/</a> 根据提示操作即可。当然，如果不想添加统计信息，这两个参数可以不填。</p>
-<pre class="line-numbers language-yml"><code class="language-yml"># statistic analysis 统计代码
-# 百度统计 id，将统计代码替换为自己的百度统计id，即
-# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
-# xxxxx字符串
-baidu_tongji_id: xxxx
-google_analytics_id: xxxx # google 分析追踪id
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>成功后，进入自己的百度统计或 Google Analytics 后台管理，即可看到网站的访问量、访客等相关信息。</p>
-<h3 id="4-写文章"><a href="#4-写文章" class="headerlink" title="4. 写文章"></a>4. 写文章</h3><p><code>_posts</code>目录下存放文章信息，文章头部注明 layout(布局)、title、date、categories、tags、author(可选)、mathjax(可选，点击<a target="_blank" rel="noopener" href="https://www.mathjax.org/">这里</a>查看更多关于<code>Mathjax</code>)，如下：</p>
-<pre><code>---
-layout: post
-title:  &quot;建站日志&quot;
-date:   2018-03-12 11:40:18 +0800
-categories: jekyll
-tags: jekyll markdown Foxit RubyGems
-author: 晚点咖啡
-mathjax: true
----
+#######install mysql##################################################
+yum -y install cmake ncurses-devel  bison libaio  make gcc gcc-c++
+mkdir  -p /application/tools
+cd /application/tools
+wget http://pkgs.fedoraproject.org/repo/pkgs/community-mysql/mysql-boost-5.7.14.tar.gz/f90464874ee635ff63c436d1b64fe311/mysql-boost-5.7.14.tar.gz
+tar xvf mysql-boost-5.7.14.tar.gz
+cd mysql-5.7.14/
+cmake . -DCMAKE_INSTALL_PREFIX=/application/mysql/ \
+-DMYSQL_DATADIR=/data/mysqlData/mysql21406/  \
+-DWITH_MYISAM_STORAGE_ENGINE=1 \
+-DWITH_INNOBASE_STORAGE_ENGINE=1  \
+-DDEFAULT_CHARSET=utf8 \
+-DDEFAULT_COLLATION=utf8_general_ci  \
+-DDOWNLOAD_BOOST=1 \
+-DDOWNLOAD_BOOST=1  \
+-DWITH_BOOST=./boost/ #boost路径修改一下 指向你源码路径
+make  -j4 &amp;&amp; make install
+
+groupadd mysql
+useradd -M -g mysql -s /sbin/nologin mysql
+chown -R mysql:mysql /application/mysql
+
+mkdir -p /data/mysqlData/mysql21406
+mkdir /data/mysqlData/mysql21406/binlog
+mkdir /data/mysqlData/mysql21406/relaylog
+chmod 750 /data/mysqlData/mysql21406/binlog
+chmod 750 /data/mysqlData/mysql21406/relaylog
+chown -R mysql:mysql /data/mysqlData/*
+
+ # 初始化mysql
+/application/mysql/bin/mysqld --initialize --user=mysql --basedir=/application/mysql/ --datadir=/data/mysqlData/mysql21406/data
+/application/mysql/bin/mysql_ssl_rsa_setup -d /data/mysqlData/mysql21406/data/
+
+#上传mys.cnf配置文件
+cd /data/mysqlData/mysql21406
+chown -R mysql:mysql /data/mysqlData/mysql21406
+
+# 修改配置文件
+vim /data/mysqlData/mysql21406/my.cnf
+
+# 启动mysql
+/application/mysql/bin/mysqld_safe --defaults-file=/data/mysqlData/mysql21406/my.cnf --user=mysql &amp;
+/application/mysql/bin/mysql -uroot -S /data/mysqlData/mysql21406/mysql.sock -p
+
+# 设置root密码
+SET PASSWORD =PASSWORD(&#39;root&#39;);
+SET PASSWORD FOR username=PASSWORD(&#39;new password&#39;);
+create database zabbix character set utf8 collate utf8_bin;
+grant all privileges on zabbix.* to &#39;zabbix&#39;@&#39;%&#39;  identified by &#39;zabbix&#39;;
+flush privileges;
+
+
+# 设置开机自启动
+echo &quot;export PATH=\$PATH:/application/mysql/bin&quot;&gt;&gt;/etc/profile
+source /etc/profile
+echo &#39;/application/mysql/bin/mysqld_safe --defaults-file=/data/mysqlData/mysql21406/my.cnf --user=mysql &amp;&#39; &gt;&gt;/etc/rc.local
+
+#安装nginx######################################################
+#useradd -M -s /sbin/nologin nginx
+#mkdir -p /var/log/nginx
+#cd /application/tools
+#wget http://nginx.org/download/nginx-1.10.1.tar.gz
+#tar zxvf nginx-1.10.1.tar.gz
+#cd nginx-1.10.1
+#yum -y install epel-release
+#yum -y install openssl openssl-devel  gcc C pcre pcre-devel bzip2-devel libcurl-devel libpng-devel libmcrypt-devel libxml2-devel readline-devel freetype freetype-devel
+#./configure --user=nginx --group=nginx --prefix=/application/nginx --with-http_stub_status_module --with-http_ssl_module
+#make &amp;&amp; make install
+yum -y install openssl openssl-devel  gcc C pcre pcre-devel bzip2-devel libcurl-devel libpng-devel libmcrypt-devel libxml2-devel readline-devel gd-devel perl-devel perl-ExtUtils-Embed
+
+#安装openresty
+yum -y install epel-release
+yum -y install openssl openssl-devel  gcc C pcre pcre-devel bzip2-devel libcurl-devel libpng-devel libmcrypt-devel libxml2-devel libxslt-devel readline-devel gd-devel perl-devel perl-ExtUtils-Embed
+mkdir -p /application/tools
+cd /application/tools
+wget https://openresty.org/download/openresty-1.13.6.1.tar.gz
+tar zxvf openresty-1.13.6.1.tar.gz
+cd openresty-1.13.6.1
+./configure \
+--prefix=/application/openresty \
+--with-http_iconv_module \
+--with-luajit \
+--user=nginx \
+--group=nginx \
+--with-select_module \
+--with-poll_module \
+--with-threads \
+--with-ipv6 \
+--with-http_v2_module \
+--with-http_ssl_module \
+--with-http_realip_module \
+--with-http_addition_module \
+--with-http_xslt_module \
+--with-http_xslt_module=dynamic \
+--with-http_image_filter_module \
+--with-http_image_filter_module=dynamic \
+--with-http_sub_module \
+--with-http_gunzip_module \
+--with-http_gzip_static_module \
+--with-http_auth_request_module \
+--with-http_random_index_module \
+--with-http_secure_link_module \
+--with-http_degradation_module \
+--with-http_slice_module \
+--with-http_stub_status_module \
+--with-http_perl_module \
+--with-http_perl_module=dynamic \
+--with-stream \
+--with-stream=dynamic \
+--with-stream_ssl_module \
+--with-pcre \
+--with-pcre-jit
+gmake -j4 &amp;&amp; gmake install
+
+useradd -s /sbin/nologin -M nginx
+ln -sv /application/openresty/nginx  /application/nginx
+ln -s /application/openresty/nginx/sbin/nginx  /usr/sbin/nginx \
+/application/nginx/sbin/nginx
+
+# 设置开机自启动
+echo &quot;export PATH=\$PATH:/application/openresty/nginx/sbin&quot; &gt;&gt;/etc/profile
+source /etc/profile
+chmod +x /etc/rc.local
+echo &quot;/application/openresty/nginx/sbin/nginx&quot; &gt;&gt;/etc/rc.local
+
+mkdir -p /data/tmp/nginx/client_temp
+mkdir -p /data/tmp/nginx/proxy_temp
+chmod 711 /data/tmp/nginx
+
+#安装php###############################################
+yum -y install epel-release
+#cd /application/tools
+#wget http://www.atomicorp.com/installers/atomic
+#sh ./atomic
+yum -y install  gcc gcc-c++   C  autoconf  make mcrypt  mhash zlib zlib-devel pcre pcre-devel  libjpeg libjpeg-devel libpng libpng-devel freetype freetype-devel libxml2 libxml2-devel glibc glibc-devel glib2 glib2-devel bzip2 bzip2-devel ncurses ncurses-devel curl curl-devel e2fsprogs e2fsprogs-devel krb5 krb5-devel openssl openssl-devel openldap openldap-devel nss_ldap openldap-clients openldap-servers libxslt libxslt-devel libmcrypt libmcrypt-devel libpng12 libpng12-devel libcurl  libcurl-devel readline-devel libXpm-devel gmp gmp-devel  mysql-devel unixODBC unixODBC-devel pspell-devel net-snmp net-snmp-devel
+cd /application/tools
+wget http://cn2.php.net/distributions/php-7.1.2.tar.gz
+tar -zxvf php-7.1.2.tar.gz
+cd php-7.1.2
+./configure \
+  --prefix=/application/php7 \
+  --with-mysqli=mysqlnd \
+  --with-pdo-mysql=mysqlnd \
+  --with-iconv \
+  --with-iconv-dir=/usr/local/libiconv \
+  --with-freetype-dir \
+  --without-pear \
+  --with-fpm-user=nginx \
+  --with-fpm-group=nginx \
+  --with-jpeg-dir \
+  --with-png-dir \
+  --with-zlib \
+  --with-zlib-dir \
+  --with-bz2  \
+  --with-xsl \
+  --with-xmlrpc \
+  --with-mhash \
+  --with-mcrypt \
+  --with-gd  \
+  --with-openssl    \
+  --with-libxml-dir \
+  --with-readline \
+  --with-gettext \
+  --with-pcre-regex \
+  --with-curl \
+  --disable-rpath \
+  --disable-ipv6  \
+  --disable-debug \
+  --enable-xml \
+  --enable-bcmath \
+  --enable-shmop \
+  --enable-sysvsem \
+  --enable-sysvmsg \
+  --enable-sysvshm \
+  --enable-mbregex \
+  --enable-mysqlnd \
+  --enable-fpm \
+  --enable-mbstring \
+  --enable-gd-native-ttf \
+  --enable-pcntl \
+  --enable-sockets \
+  --enable-soap \
+  --enable-short-tags \
+  --enable-static \
+  --enable-ftp \
+  --enable-opcache=yes \
+  --enable-json \
+  --enable-zip\
+  --enable-exif \
+  --enable-inline-optimization
+#ln -s /application/mysql/lib/libmysqlclient.so.20 /usr/lib64
+make -j4 &amp;&amp; make install
+
+echo &quot;export PATH=&quot;/application/php7/bin:\$PATH&quot;&quot; &gt;&gt;/etc/profile
+source /etc/profile
+echo &quot;/application/php7/sbin/php-fpm&quot; &gt;&gt;/etc/rc.local
+
+####################################################
+php7环境安装模块：
+# 安装emqttd
+#cd /application/tools
+#wget http://emqtt.io/static/brokers/emqttd-centos6.8-v2.1.0-beta.1.zip
+#unzip emqttd-centos6.8-v2.1.0-beta.1.zip
+#cd emqttd
+#./bin/emqttd start
+#./bin/emqttd_ctl status
+
+# 安装memcache、redis、yaf模块
+#cd /application/tools
+#wget http://pecl.php.net/get/memcache-2.2.5.tgz
+#tar xf memcache-2.2.5.tgz
+#cd memcache-2.2.5
+#/application/php/bin/phpize
+#./configure --with-php-config=/application/php/bin/php-config
+#make &amp;&amp; make install
+
+# 安装yaf模块
+cd /application/tools
+wget https://pecl.php.net/get/yaf-3.0.5.tgz
+tar -zxvf yaf-3.0.5.tgz
+cd yaf-3.0.5
+/application/php7/bin/phpize
+./configure --with-php-config=/application/php7/bin/php-config
+make &amp;&amp; make install
+
+# 安装redis模块
+cd /application/tools
+wget https://github.com/phpredis/phpredis/archive/develop.zip
+unzip develop.zip
+cd phpredis-develop
+/application/php7/bin/phpize
+./configure --with-php-config=/application/php7/bin/php-config
+make &amp;&amp; make install
+
+# 安装seaslog模块
+cd /application/tools
+wget https://pecl.php.net/get/SeasLog-1.6.9.tgz
+tar -zxvf SeasLog-1.6.9.tgz
+cd SeasLog-1.6.9
+/application/php7/bin/phpize
+./configure --with-php-config=/application/php7/bin/php-config
+make &amp;&amp; make install
+
+# 安装rabbitmq模块
+yum -y install cmake
+cd /application/tools
+wget https://github.com/alanxz/rabbitmq-c/releases/download/v0.8.0/rabbitmq-c-0.8.0.tar.gz
+tar -zxvf rabbitmq-c-0.8.0.tar.gz
+cd rabbitmq-c-0.8.0
+#mkdir build &amp;&amp; cd build
+#cmake -DCMAKE_INSTALL_PREFIX=/usr/local/librabbitmq ..
+#cmake --build .
+./configure --prefix=/usr/local/rabbitmq-c
+make -j4 &amp;&amp; make install
+cd /application/tools
+wget https://pecl.php.net/get/amqp-1.9.1.tgz
+tar -zxvf amqp-1.9.1.tgz
+cd amqp-1.9.1
+/application/php7/bin/phpize
+./configure --with-php-config=/application/php7/bin/php-config --with-amqp --with-librabbitmq-dir=/usr/local/rabbitmq-c/
+make -j4 &amp;&amp; make install
+
+##php7环境配置
+cd /application/tools/php-7.1.2
+\cp php.ini-production  /application/php7/lib/php.ini
+cd /application/php7/etc
+\cp php-fpm.conf.default php-fpm.conf
+cd /application/php7/etc/php-fpm.d/
+\cp www.conf.default  www.conf
+/application/php7/sbin/php-fpm
+
+# 最后在php.ini定义加载模块就可以
+cat &gt;&gt;/application/php7/lib/php.ini&lt;&lt;EOF
+date.timezone = &quot;Asia/Shanghai&quot;
+extension=redis.so
+extension=seaslog.so
+extension=yaf.so
+extension = amqp.so
+yaf.environ=cloud
+
+seaslog.default_basepath = /data/appLog/wallet            ;默认log根目录
+seaslog.default_logger = default                        ;默认logger目录
+seaslog.disting_type = 1                                ;是否以type分文件 1是 0否(默认)
+seaslog.disting_by_hour = 1                             ;是否每小时划分一个文件 1是 0否(默认)
+seaslog.use_buffer = 0                                  ;是否启用buffer 1是 0否(默认)
+seaslog.buffer_size = 100                               ;buffer中缓冲数量 默认0(不使用buffer_size)
+seaslog.level = 0                                       ;记录日志级别 默认0(所有日志)
+seaslog.trace_error = 1                                 ;自动记录错误 默认1(开启)
+seaslog.trace_exception = 0                             ;自动记录异常信息 默认0(关闭)
+seaslog.default_datetime_format = &quot;Y:m:d H:i:s&quot;         ;日期格式配置 默认&quot;Y:m:d H:i:s&quot;
+seaslog.appender = 1                                    ;日志存储介质 1File 2TCP 3UDP (默认为1)
+seaslog.remote_host = 127.0.0.1                         ;接收ip 默认127.0.0.1 (当使用TCP或UDP时必填)
+seaslog.remote_port = 514                               ;接收端口 默认514 (当使用TCP或UDP时必填)
+EOF
+#重启php-fpm
+pkill php-fpm
+/application/php7/sbin/php-fpm
+
+# 服务开机自启动
+cat &gt;&gt;/etc/rc.local&lt;&lt;EOF
+/application/php/sbin/php-fpm
+/application/nginx/sbin/nginx
+/application/mysql/bin/mysqld_safe --defaults-file=/data/mysqlData/mysql21406/my.cnf --user=mysql &amp;
+EOF
+
+# 内核调优
+cat &gt;&gt;/etc/sysctl.conf&lt;&lt;EOF
+net.ipv4.tcp_max_syn_backlog = 65536
+net.core.netdev_max_backlog =  32768
+net.core.somaxconn = 32768
+
+net.core.wmem_default = 8388608
+net.core.rmem_default = 8388608
+net.core.rmem_max = 16777216
+net.core.wmem_max = 16777216
+
+net.ipv4.tcp_timestamps = 0
+net.ipv4.tcp_synack_retries = 2
+net.ipv4.tcp_syn_retries = 2
+
+net.ipv4.tcp_tw_recycle = 1
+#net.ipv4.tcp_tw_len = 1
+net.ipv4.tcp_tw_reuse = 1
+
+net.ipv4.tcp_mem = 94500000 915000000 927000000
+net.ipv4.tcp_max_orphans = 3276800
+
+#net.ipv4.tcp_fin_timeout = 30
+#net.ipv4.tcp_keepalive_time = 120
+net.ipv4.ip_local_port_range = 1024  65535
+EOF
+/sbin/sysctl -p
 </code></pre>
-<p>下面这两行代码为产生目录时使用</p>
-<pre><code>* content
-&#123;:toc&#125;
-</code></pre>
-<p>文章中存在的4次换行为摘要分割符，换行前的内容会以摘要的形式显示在主页Home上，进入文章页不影响。</p>
-<p>换行符的设置见配置文件<code>_config.yml</code>的 excerpt，如下：</p>
-<pre class="line-numbers language-yml"><code class="language-yml"># excerpt
-excerpt_separator: "\n\n\n\n"
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-<p>使用 markdown 语法写文章。</p>
-<p>代码风格与 GitHub 上 README 或 issue 中的一致。使用3个```的方式。</p>
-<h3 id="5-本地运行"><a href="#5-本地运行" class="headerlink" title="5. 本地运行"></a>5. 本地运行</h3><p>本地执行</p>
-<pre><code>jekyll s
-</code></pre>
-<p>显示</p>
-<pre><code>Configuration file: E:/GitWorkSpace/blog/_config.yml
-            Source: E:/GitWorkSpace/blog
-       Destination: E:/GitWorkSpace/blog/_site
- Incremental build: disabled. Enable with --incremental
-      Generating...
-                    done in 6.33 seconds.
-  Please add the following to your Gemfile to avoid polling for changes:
-    gem &#39;wdm&#39;, &#39;&gt;= 0.1.0&#39; if Gem.win_platform?
- Auto-regeneration: enabled for &#39;E:/GitWorkSpace/blog&#39;
-Configuration file: E:/GitWorkSpace/blog/_config.yml
-    Server address: http://127.0.0.1:4000/
-  Server running... press ctrl-c to stop.
-</code></pre>
-<p>在本地访问 localhost:4000 即可看到博客主页。</p>
-<p>若安装了 Foxit 福昕pdf阅读器可能会占用4000端口，关闭 Foxit服务 或切换 jekyll 端口即可解决。详情见文章：<a target="_blank" rel="noopener" href="http://gaohaoyang.github.io/2016/03/12/jekyll-theme-version-2.0/">对这个 jekyll 博客主题的改版和重构</a></p>
-<p>若正在使用全局代理，可能会报错502，关闭全局代理即可。</p>
-<h3 id="6-发布到-GitHub"><a href="#6-发布到-GitHub" class="headerlink" title="6. 发布到 GitHub"></a>6. 发布到 GitHub</h3><p>没什么问题，推送到自己的博客仓库即可。</p>
-<h3 id="7-参考资料"><a href="#7-参考资料" class="headerlink" title="7. 参考资料"></a>7. 参考资料</h3><p><a target="_blank" rel="noopener" href="http://gaohaoyang.github.io/">http://gaohaoyang.github.io</a></p>
 
             </div>
             <hr />
@@ -693,9 +932,9 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《jekyll+github搭建博客》
+                    《Lnmp一键部署脚本》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2018/07/14/2018-07-14-artice1-jekyll-github/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2018/07/16/linux-lnmp/" property="cc:attributionName"
                rel="cc:attributionURL">
                 bill tang
             </a> 采用
@@ -736,7 +975,7 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
         repo: 'godweiyang.github.io',
         owner: 'owelinux',
         admin: "owelinux",
-        id: '2018/07/14/2018-07-14-artice1-jekyll-github/',
+        id: '2018/07/16/linux-lnmp/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1023,32 +1262,37 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2018/07/16/2018-07-14-article2-linux-suggest/">
+                <a href="/2018/07/17/linux-precautions/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/25.jpg" class="responsive-img" alt="菜鸟运维给小白上手建议">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="做运维需要注意什么？">
                         
-                        <span class="card-title">菜鸟运维给小白上手建议</span>
+                        <span class="card-title">做运维需要注意什么？</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
                             运维应该怎么分阶段学习？
-第一阶段：Linux运维基本功大致的知识点有这些：计算机基础、Linux操作系统、网络基础、VIM编辑器、系统用户与权限、Linux文件系统与内核、系统服务与进程、MySQL数据库、LAMP环境配置+开源项目实战（
+
+机器名不要设置为localhost。
+只读共享，不需要（ro，sync），只需（ro）即可。
+要学会规范，按照要求部署，哪怕一个字符都不要错。
+敲路径时候尽量复制粘贴。少自己敲字符。防止简单的字符错误。
+记得开机
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-16
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-17
                         </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/linux%E8%BF%90%E7%BB%B4/" class="post-category" target="_blank">
-                                    linux运维
+                            <a href="/categories/linux/" class="post-category" target="_blank">
+                                    linux
                                 </a>
                             
                             
@@ -1070,47 +1314,46 @@ Configuration file: E:/GitWorkSpace/blog/_config.yml
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/07/14/2018-07-14-artice1-jekyll-github/">
+                <a href="/2018/07/16/linux-suggest/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="jekyll+github搭建博客">
+                        <img src="/medias/featureimages/25.jpg" class="responsive-img" alt="菜鸟运维给小白上手建议">
                         
-                        <span class="card-title">jekyll+github搭建博客</span>
+                        <span class="card-title">菜鸟运维给小白上手建议</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            博客有很多搭建方式，以下简单说一下jekyll+github搭建方法。
-1. 安装 ruby 和 jekyll 环境这一步和第5步主要是为了让博客系统在本地跑起来，如果不想在本地运行，可以无视这两步，但我还是强烈建议试着先在本地跑起来，没有
+                            运维应该怎么分阶段学习？
+第一阶段：Linux运维基本功大致的知识点有这些：计算机基础、Linux操作系统、网络基础、VIM编辑器、系统用户与权限、Linux文件系统与内核、系统服务与进程、MySQL数据库、LAMP环境配置+开源项目实战（
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-14
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-16
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category" target="_blank">
-                                    随笔
+                            <a href="/categories/linux/" class="post-category" target="_blank">
+                                    linux
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2/" target="_blank">
-                        <span class="chip bg-color">博客</span>
+                    <a href="/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/" target="_blank">
+                        <span class="chip bg-color">学习方法</span>
                     </a>
                     
                 </div>

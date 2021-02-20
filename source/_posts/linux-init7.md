@@ -10,7 +10,7 @@ summary:
 tags:
 - 系统调优
 categories:
-- linux运维
+- linux
 ---
 
 ## 关闭不必要的服务(如打印服务等)

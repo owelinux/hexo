@@ -10,7 +10,7 @@ summary:
 tags:
 - 运维工具
 categories:
-- linux运维
+- linux
 ---
 
 - 操作系统：Centos※, Ubuntu, Redhat※, suse，Freebsd

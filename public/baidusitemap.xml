@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://lovek8s.github.io/2018/07/18/linux-init7/</loc>
+    <lastmod>2021-02-20</lastmod>
+  </url>  <url>
+    <loc>https://lovek8s.github.io/2018/07/16/linux-lnmp/</loc>
+    <lastmod>2021-02-20</lastmod>
+  </url>  <url>
+    <loc>https://lovek8s.github.io/2018/07/19/linux-tools/</loc>
+    <lastmod>2021-02-20</lastmod>
+  </url>  <url>
+    <loc>https://lovek8s.github.io/2018/07/17/linux-precautions/</loc>
+    <lastmod>2021-02-20</lastmod>
+  </url>  <url>
+    <loc>https://lovek8s.github.io/2018/07/16/linux-suggest/</loc>
+    <lastmod>2021-02-20</lastmod>
+  </url>  <url>
+    <loc>https://lovek8s.github.io/2018/07/14/blog-jekyll/</loc>
+    <lastmod>2021-02-20</lastmod>
+  </url>  <url>
     <loc>https://lovek8s.github.io/2021/02/18/ge-ren-shou-cang-gong-ju/</loc>
     <lastmod>2021-02-18</lastmod>
   </url>  <url>
-    <loc>https://lovek8s.github.io/2018/07/16/2018-07-14-article2-linux-suggest/</loc>
-    <lastmod>2021-02-09</lastmod>
-  </url>  <url>
-    <loc>https://lovek8s.github.io/2018/07/17/2018-07-14-article3-linux-precautions/</loc>
-    <lastmod>2021-02-09</lastmod>
-  </url>  <url>
     <loc>https://lovek8s.github.io/2018/07/24/2018-07-24-article7-linux-nginxlog/</loc>
-    <lastmod>2021-02-09</lastmod>
-  </url>  <url>
-    <loc>https://lovek8s.github.io/2018/07/18/2018-07-18-article6-linux-init7/</loc>
-    <lastmod>2021-02-09</lastmod>
-  </url>  <url>
-    <loc>https://lovek8s.github.io/2018/07/14/2018-07-14-artice1-jekyll-github/</loc>
-    <lastmod>2021-02-09</lastmod>
-  </url>  <url>
-    <loc>https://lovek8s.github.io/2018/07/19/2018-07-14-article4-linux-tools/</loc>
-    <lastmod>2021-02-09</lastmod>
-  </url>  <url>
-    <loc>https://lovek8s.github.io/2018/07/16/2018-07-16-article5-linux-lnmp/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
     <loc>https://lovek8s.github.io/2021/02/09/k8s-chong-qi-deployment/</loc>
@@ -70,10 +70,10 @@
     <loc>https://lovek8s.github.io/2018/09/10/2018-09-10-article34-linux-3/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
-    <loc>https://lovek8s.github.io/2018/09/10/2018-09-10-article32-linux-1/</loc>
+    <loc>https://lovek8s.github.io/2018/09/06/2018-09-06-article31-linux-let-ssl/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
-    <loc>https://lovek8s.github.io/2018/09/06/2018-09-06-article31-linux-let-ssl/</loc>
+    <loc>https://lovek8s.github.io/2018/09/10/2018-09-10-article32-linux-1/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
     <loc>https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</loc>
@@ -97,25 +97,25 @@
     <loc>https://lovek8s.github.io/2018/09/03/2018-09-03-article26-linux-fastdfs-2/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
-    <loc>https://lovek8s.github.io/2018/08/30/2018-08-30-article22-linux-convirt/</loc>
-    <lastmod>2021-02-09</lastmod>
-  </url>  <url>
     <loc>https://lovek8s.github.io/2018/08/31/2018-08-31-article23-linux-convirt-create/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
-    <loc>https://lovek8s.github.io/2018/08/24/2018-08-24-article19-linux-telegraf-infludb/</loc>
+    <loc>https://lovek8s.github.io/2018/08/30/2018-08-30-article22-linux-convirt/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
     <loc>https://lovek8s.github.io/2018/08/28/2018-08-28-article20-linux-git-proxy/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
+    <loc>https://lovek8s.github.io/2018/08/24/2018-08-24-article19-linux-telegraf-infludb/</loc>
+    <lastmod>2021-02-09</lastmod>
+  </url>  <url>
     <loc>https://lovek8s.github.io/2018/08/29/2018-08-29-article21-linux-pip/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
-    <loc>https://lovek8s.github.io/2018/08/22/2018-08-22-article16-linux-elk/</loc>
+    <loc>https://lovek8s.github.io/2018/08/23/2018-08-23-article17-linux-update-es/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
-    <loc>https://lovek8s.github.io/2018/08/23/2018-08-23-article17-linux-update-es/</loc>
+    <loc>https://lovek8s.github.io/2018/08/22/2018-08-22-article16-linux-elk/</loc>
     <lastmod>2021-02-09</lastmod>
   </url>  <url>
     <loc>https://lovek8s.github.io/2018/08/23/2018-08-23-article18-linux-es-think/</loc>

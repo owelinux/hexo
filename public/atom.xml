@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>晚点咖啡的博客</title>
   
-  <subtitle>k8s布道师之路</subtitle>
+  <subtitle>云原生学习之路</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lovek8s.github.io/"/>

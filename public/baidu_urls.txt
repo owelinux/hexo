@@ -40,9 +40,9 @@ https://lovek8s.github.io/2018/07/30/2018-07-28-article10-linux-metricbeat-diski
 https://lovek8s.github.io/2018/07/28/2018-07-28-article9-linux-lsof/
 https://lovek8s.github.io/2018/07/25/2018-07-25-article8-linux-prometheus/
 https://lovek8s.github.io/2018/07/24/2018-07-24-article7-linux-nginxlog/
-https://lovek8s.github.io/2018/07/19/2018-07-14-article4-linux-tools/
-https://lovek8s.github.io/2018/07/18/2018-07-18-article6-linux-init7/
-https://lovek8s.github.io/2018/07/17/2018-07-14-article3-linux-precautions/
-https://lovek8s.github.io/2018/07/16/2018-07-16-article5-linux-lnmp/
-https://lovek8s.github.io/2018/07/16/2018-07-14-article2-linux-suggest/
-https://lovek8s.github.io/2018/07/14/2018-07-14-artice1-jekyll-github/
+https://lovek8s.github.io/2018/07/19/linux-tools/
+https://lovek8s.github.io/2018/07/18/linux-init7/
+https://lovek8s.github.io/2018/07/17/linux-precautions/
+https://lovek8s.github.io/2018/07/16/linux-lnmp/
+https://lovek8s.github.io/2018/07/16/linux-suggest/
+https://lovek8s.github.io/2018/07/14/blog-jekyll/

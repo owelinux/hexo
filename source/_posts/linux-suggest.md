@@ -10,7 +10,7 @@ summary:
 tags:
 - 学习方法
 categories:
-- linux运维
+- linux
 ---
 
 运维应该怎么分阶段学习？

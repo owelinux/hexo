@@ -10,7 +10,7 @@ summary:
 tags:
 - lnmp
 categories:
-- linux运维
+- linux
 ---
 ## Lnmp一键部署脚本
 
