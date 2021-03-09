@@ -59,5 +59,3 @@ mathjax: true
 owelinux@gmail.com
 * <b>微信</b>
 lovek8s
-
-![](/medias/contact.jpg)

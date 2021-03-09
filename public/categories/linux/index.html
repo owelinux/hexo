@@ -768,13 +768,13 @@ ls -ail /proc/pid/
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2018/09/10/2018-09-10-article32-linux-1/">
+                    <a href="/2018/09/10/2018-09-10-article33-linux-2/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="linux shell中&>file,2>&1,1>&2区别">
+                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="linux 系统时区更改">
                             
-                            <span class="card-title">linux shell中&>file,2>&1,1>&2区别</span>
+                            <span class="card-title">linux 系统时区更改</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
@@ -783,16 +783,14 @@ ls -ail /proc/pid/
                                 
 content{:toc}
 
-linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别shell中几个定义：
+linux 系统时区更改方法一：
+tzselect
 
-0：表示标准输入
+方法二: 仅限于RedHat Linux 和 CentOS系统 
+timeconfig
 
-1：表示标准输出
-
-2：表示标准错误输出
-
-
-：默认为标准输
+方法三: 适用于Debian
+dpkg-reconfigure 
                             
                         </div>
                         <div class="publish-info">
@@ -826,13 +824,13 @@ linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别shell中几个定义：
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2018/09/10/2018-09-10-article33-linux-2/">
+                    <a href="/2018/09/10/2018-09-10-article32-linux-1/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="linux 系统时区更改">
+                            <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="linux shell中&>file,2>&1,1>&2区别">
                             
-                            <span class="card-title">linux 系统时区更改</span>
+                            <span class="card-title">linux shell中&>file,2>&1,1>&2区别</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
@@ -841,14 +839,16 @@ linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别shell中几个定义：
                                 
 content{:toc}
 
-linux 系统时区更改方法一：
-tzselect
+linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别shell中几个定义：
 
-方法二: 仅限于RedHat Linux 和 CentOS系统 
-timeconfig
+0：表示标准输入
 
-方法三: 适用于Debian
-dpkg-reconfigure 
+1：表示标准输出
+
+2：表示标准错误输出
+
+
+：默认为标准输
                             
                         </div>
                         <div class="publish-info">
@@ -932,13 +932,13 @@ Let’s Encrypt通配符HTTPS证书申请Let’s Encrypt 发布的 ACME v2 现�
             
             <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2018/09/04/2018-09-04-article30-linux-cdh/">
+                    <a href="/2018/09/04/2018-09-04-article29-linux-yum-mysql/">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="CDH 5.15安装文档">
+                            <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="centos yum安装mysql5.7">
                             
-                            <span class="card-title">CDH 5.15安装文档</span>
+                            <span class="card-title">centos yum安装mysql5.7</span>
                         </div>
                     </a>
                     <div class="card-content article-content">
@@ -947,10 +947,10 @@ Let’s Encrypt通配符HTTPS证书申请Let’s Encrypt 发布的 ACME v2 现�
                                 
 content{:toc}
 
-CDH 5.15安装文档在测试开发环境，初始化一个数据库，通常选择yum来安装，本文将常见的mysqlyum源及安装方式梳理
-系统环境操作系统：centos6.8
-数据库：mysql5.7，编码utf-8
-j
+#centos yum安装mysql5.7
+在测试开发环境，初始化一个数据库，通常选择yum来安装，本文将常见的mysqlyum源及安装方式梳理
+系统环境centos6或者centos7
+查看系统是否已经安装
                             
                         </div>
                         <div class="publish-info">
@@ -973,8 +973,8 @@ j
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/CDH/" target="_blank">
-                            <span class="chip bg-color">CDH</span>
+                        <a href="/tags/mysql/" target="_blank">
+                            <span class="chip bg-color">mysql</span>
                         </a>
                         
                     </div>
