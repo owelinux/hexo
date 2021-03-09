@@ -569,7 +569,7 @@ pipline发送邮件
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/02/09/k8s-cluster/" target="_blank">
+                    <a href="/2021/02/09/k8s-chong-qi-deployment/" target="_blank">
                         <div class="card-image">
                             
                             
@@ -582,10 +582,8 @@ pipline发送邮件
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Kubernetes 配置 kubeconfig 访问多个集群test集群（~/.kube/config）apiVersion: v1
-clusters:
-- cluster:
-    insecure-skip-tls-verify: t
+                            K8S重启Deployment的方式有时候我们会需要重启Deployment，原因可能是：
+docker image使用的是latest tag，这个latest在docker image registry已经更新了，我们需要重启deplo
                             
                         </div>
                         <div class="publish-info">
@@ -604,7 +602,7 @@ clusters:
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
-                    <a href="/2021/02/09/k8s-chong-qi-deployment/" target="_blank">
+                    <a href="/2021/02/09/k8s-cluster/" target="_blank">
                         <div class="card-image">
                             
                             
@@ -617,8 +615,10 @@ clusters:
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            K8S重启Deployment的方式有时候我们会需要重启Deployment，原因可能是：
-docker image使用的是latest tag，这个latest在docker image registry已经更新了，我们需要重启deplo
+                            Kubernetes 配置 kubeconfig 访问多个集群test集群（~/.kube/config）apiVersion: v1
+clusters:
+- cluster:
+    insecure-skip-tls-verify: t
                             
                         </div>
                         <div class="publish-info">

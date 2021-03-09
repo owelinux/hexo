@@ -8,8 +8,8 @@ mathjax: true
 
 
 ## CV
-[中文版](/medias/files/cv-zh.pdf)
-[English Version](/medias/files/cv-en.pdf)
+[中文版](/medias/files/cv-xx.pdf)
+[English Version](/medias/files/cv-xx.pdf)
 
 ## 教育背景
 * <b>本科 华东科技大学文华学院 通信工程</b>
