@@ -997,13 +997,13 @@ Docker 社区版 (CE) 是开发人员和小型团队开始使用 Docker 并尝�
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2018/09/10/2018-09-10-article32-linux-1/">
+                        <a href="/2018/09/10/2018-09-10-article33-linux-2/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="linux shell中&>file,2>&1,1>&2区别">
+                                <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="linux 系统时区更改">
                                 
-                                <span class="card-title">linux shell中&>file,2>&1,1>&2区别</span>
+                                <span class="card-title">linux 系统时区更改</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
@@ -1012,16 +1012,14 @@ Docker 社区版 (CE) 是开发人员和小型团队开始使用 Docker 并尝�
                                 
 content{:toc}
 
-linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别shell中几个定义：
+linux 系统时区更改方法一：
+tzselect
 
-0：表示标准输入
+方法二: 仅限于RedHat Linux 和 CentOS系统 
+timeconfig
 
-1：表示标准输出
-
-2：表示标准错误输出
-
-
-：默认为标准输
+方法三: 适用于Debian
+dpkg-reconfigure 
                                 
                             </div>
                             <div class="publish-info">
@@ -1069,13 +1067,13 @@ linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别shell中几个定义：
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2018/09/10/2018-09-10-article33-linux-2/">
+                        <a href="/2018/09/10/2018-09-10-article32-linux-1/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="linux 系统时区更改">
+                                <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="linux shell中&>file,2>&1,1>&2区别">
                                 
-                                <span class="card-title">linux 系统时区更改</span>
+                                <span class="card-title">linux shell中&>file,2>&1,1>&2区别</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
@@ -1084,14 +1082,16 @@ linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别shell中几个定义：
                                 
 content{:toc}
 
-linux 系统时区更改方法一：
-tzselect
+linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别shell中几个定义：
 
-方法二: 仅限于RedHat Linux 和 CentOS系统 
-timeconfig
+0：表示标准输入
 
-方法三: 适用于Debian
-dpkg-reconfigure 
+1：表示标准输出
+
+2：表示标准错误输出
+
+
+：默认为标准输
                                 
                             </div>
                             <div class="publish-info">

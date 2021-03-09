@@ -308,15 +308,15 @@
   </entry>
   
   <entry>
-    <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
-    <link href="https://lovek8s.github.io/2018/09/10/2018-09-10-article32-linux-1/"/>
-    <id>https://lovek8s.github.io/2018/09/10/2018-09-10-article32-linux-1/</id>
+    <title>linux 系统时区更改</title>
+    <link href="https://lovek8s.github.io/2018/09/10/2018-09-10-article33-linux-2/"/>
+    <id>https://lovek8s.github.io/2018/09/10/2018-09-10-article33-linux-2/</id>
     <published>2018-09-10T10:29:54.000Z</published>
-    <updated>2021-02-09T02:00:24.574Z</updated>
+    <updated>2021-02-09T02:00:24.575Z</updated>
     
     <summary type="html">
     
-      linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别
+      linux 系统时区更改
     
     </summary>
     
@@ -328,15 +328,15 @@
   </entry>
   
   <entry>
-    <title>linux 系统时区更改</title>
-    <link href="https://lovek8s.github.io/2018/09/10/2018-09-10-article33-linux-2/"/>
-    <id>https://lovek8s.github.io/2018/09/10/2018-09-10-article33-linux-2/</id>
+    <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
+    <link href="https://lovek8s.github.io/2018/09/10/2018-09-10-article32-linux-1/"/>
+    <id>https://lovek8s.github.io/2018/09/10/2018-09-10-article32-linux-1/</id>
     <published>2018-09-10T10:29:54.000Z</published>
-    <updated>2021-02-09T02:00:24.575Z</updated>
+    <updated>2021-02-09T02:00:24.574Z</updated>
     
     <summary type="html">
     
-      linux 系统时区更改
+      linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别
     
     </summary>
     
@@ -388,26 +388,6 @@
   </entry>
   
   <entry>
-    <title>centos yum安装mysql5.7</title>
-    <link href="https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/"/>
-    <id>https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</id>
-    <published>2018-09-04T08:02:54.000Z</published>
-    <updated>2021-02-09T02:00:24.573Z</updated>
-    
-    <summary type="html">
-    
-      centos yum安装mysql5.7
-    
-    </summary>
-    
-      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
-    
-    
-      <category term="mysql" scheme="https://lovek8s.github.io/tags/mysql/"/>
-    
-  </entry>
-  
-  <entry>
     <title>CDH 5.15安装文档</title>
     <link href="https://lovek8s.github.io/2018/09/04/2018-09-04-article30-linux-cdh/"/>
     <id>https://lovek8s.github.io/2018/09/04/2018-09-04-article30-linux-cdh/</id>
@@ -424,6 +404,26 @@
     
     
       <category term="CDH" scheme="https://lovek8s.github.io/tags/CDH/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>centos yum安装mysql5.7</title>
+    <link href="https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/"/>
+    <id>https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</id>
+    <published>2018-09-04T08:02:54.000Z</published>
+    <updated>2021-02-09T02:00:24.573Z</updated>
+    
+    <summary type="html">
+    
+      centos yum安装mysql5.7
+    
+    </summary>
+    
+      <category term="linux" scheme="https://lovek8s.github.io/categories/linux/"/>
+    
+    
+      <category term="mysql" scheme="https://lovek8s.github.io/tags/mysql/"/>
     
   </entry>
   

@@ -294,11 +294,11 @@
     
     
     <entry>
-      <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
-      <link href="/2018/09/10/2018-09-10-article32-linux-1/"/>
-      <url>/2018/09/10/2018-09-10-article32-linux-1/</url>
+      <title>linux 系统时区更改</title>
+      <link href="/2018/09/10/2018-09-10-article33-linux-2/"/>
+      <url>/2018/09/10/2018-09-10-article33-linux-2/</url>
       
-        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="linux-shell中-amp-gt-file-2-gt-amp-1-1-gt-amp-2区别"><a href="#linux-shell中-amp-gt-file-2-gt-amp-1-1-gt-amp-2区别" class="headerlink" title="linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别"></a>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</h1><p>shell中几个定义：</p><ul><li><p>0：表示标准输入</p></li><li><p>1：表示标准输出</p></li><li><p>2：表示标准错误输出</p></li><li><blockquote><p>：默认为标准输出重定向，与1&gt;相同（替换）</p></blockquote></li><li><blockquote><blockquote><p>：表示标准输出重定向（追加）</p></blockquote></blockquote></li><li><p>2&gt;&amp;1：表示把标准错误输出 重定向到标准输出</p></li><li><p>&amp;&gt;file：表示把标准输出和标准错误输出 都重定向到文件file中 </p></li></ul><p>举例：</p><p>替换：</p><pre><code>grep &quot;aaa&quot; filename &gt; a.log</code></pre><p>追加：</p><pre><code>grep &quot;bbb&quot; filename &gt;&gt;b.log</code></pre><p>2&gt;&amp;1:</p><pre><code>grep &quot;error&quot; filename &gt;/dev/null 2&gt;&amp;1等价于grep &quot;error&quot; filename &gt;/dev/null 2&gt;/dev/null</code></pre><p>&amp;&gt;file:</p><pre><code>grep &quot;error&quot; filename &gt;/dev/null 等价于grep &quot;error&quot; filename &gt;/dev/null 2&gt;/dev/null</code></pre>]]></content>
+        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="linux-系统时区更改"><a href="#linux-系统时区更改" class="headerlink" title="linux 系统时区更改"></a>linux 系统时区更改</h1><p>方法一：</p><pre><code>tzselect</code></pre><p>方法二: 仅限于RedHat Linux 和 CentOS系统 </p><pre><code>timeconfig</code></pre><p>方法三: 适用于Debian</p><pre><code>dpkg-reconfigure tzdata</code></pre><p>方法四: 复制相应的时区文件，替换CentOS系统时区文件；或者创建链接文件 </p><pre><code>cp /usr/share/zoneinfo/EST5EDT /etc/localtime 或者 ln -s /usr/share/zoneinfo/EST5EDT /etc/localtime时间同步 yum instlal ntp -y加入crontab * * * * * /usr/sbin/ntpdate us.pool.ntp.org | logger -t NTP</code></pre><p>时间服务器地址：<br><a href="https://www.ntppool.org/zone">https://www.ntppool.org/zone</a></p>]]></content>
       
       
       <categories>
@@ -319,11 +319,11 @@
     
     
     <entry>
-      <title>linux 系统时区更改</title>
-      <link href="/2018/09/10/2018-09-10-article33-linux-2/"/>
-      <url>/2018/09/10/2018-09-10-article33-linux-2/</url>
+      <title>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</title>
+      <link href="/2018/09/10/2018-09-10-article32-linux-1/"/>
+      <url>/2018/09/10/2018-09-10-article32-linux-1/</url>
       
-        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="linux-系统时区更改"><a href="#linux-系统时区更改" class="headerlink" title="linux 系统时区更改"></a>linux 系统时区更改</h1><p>方法一：</p><pre><code>tzselect</code></pre><p>方法二: 仅限于RedHat Linux 和 CentOS系统 </p><pre><code>timeconfig</code></pre><p>方法三: 适用于Debian</p><pre><code>dpkg-reconfigure tzdata</code></pre><p>方法四: 复制相应的时区文件，替换CentOS系统时区文件；或者创建链接文件 </p><pre><code>cp /usr/share/zoneinfo/EST5EDT /etc/localtime 或者 ln -s /usr/share/zoneinfo/EST5EDT /etc/localtime时间同步 yum instlal ntp -y加入crontab * * * * * /usr/sbin/ntpdate us.pool.ntp.org | logger -t NTP</code></pre><p>时间服务器地址：<br><a href="https://www.ntppool.org/zone">https://www.ntppool.org/zone</a></p>]]></content>
+        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><h1 id="linux-shell中-amp-gt-file-2-gt-amp-1-1-gt-amp-2区别"><a href="#linux-shell中-amp-gt-file-2-gt-amp-1-1-gt-amp-2区别" class="headerlink" title="linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别"></a>linux shell中&amp;&gt;file,2&gt;&amp;1,1&gt;&amp;2区别</h1><p>shell中几个定义：</p><ul><li><p>0：表示标准输入</p></li><li><p>1：表示标准输出</p></li><li><p>2：表示标准错误输出</p></li><li><blockquote><p>：默认为标准输出重定向，与1&gt;相同（替换）</p></blockquote></li><li><blockquote><blockquote><p>：表示标准输出重定向（追加）</p></blockquote></blockquote></li><li><p>2&gt;&amp;1：表示把标准错误输出 重定向到标准输出</p></li><li><p>&amp;&gt;file：表示把标准输出和标准错误输出 都重定向到文件file中 </p></li></ul><p>举例：</p><p>替换：</p><pre><code>grep &quot;aaa&quot; filename &gt; a.log</code></pre><p>追加：</p><pre><code>grep &quot;bbb&quot; filename &gt;&gt;b.log</code></pre><p>2&gt;&amp;1:</p><pre><code>grep &quot;error&quot; filename &gt;/dev/null 2&gt;&amp;1等价于grep &quot;error&quot; filename &gt;/dev/null 2&gt;/dev/null</code></pre><p>&amp;&gt;file:</p><pre><code>grep &quot;error&quot; filename &gt;/dev/null 等价于grep &quot;error&quot; filename &gt;/dev/null 2&gt;/dev/null</code></pre>]]></content>
       
       
       <categories>
@@ -394,31 +394,6 @@
     
     
     <entry>
-      <title>centos yum安装mysql5.7</title>
-      <link href="/2018/09/04/2018-09-04-article29-linux-yum-mysql/"/>
-      <url>/2018/09/04/2018-09-04-article29-linux-yum-mysql/</url>
-      
-        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><p>#centos yum安装mysql5.7</p><p>在测试开发环境，初始化一个数据库，通常选择yum来安装，本文将常见的mysqlyum源及安装方式梳理</p><h2 id="系统环境"><a href="#系统环境" class="headerlink" title="系统环境"></a>系统环境</h2><p>centos6或者centos7</p><h2 id="查看系统是否已经安装mysql"><a href="#查看系统是否已经安装mysql" class="headerlink" title="查看系统是否已经安装mysql"></a>查看系统是否已经安装mysql</h2><pre><code>rpm -qa | grep mysqlyum list installed | grep mysql</code></pre><h2 id="卸载当前数据库"><a href="#卸载当前数据库" class="headerlink" title="卸载当前数据库"></a>卸载当前数据库</h2><p>centos6.x或者centos7.x ：</p><pre><code>yum -y remove mysql*</code></pre><h2 id="mysql数据源下载"><a href="#mysql数据源下载" class="headerlink" title="mysql数据源下载"></a>mysql数据源下载</h2><p>centos6.x</p><pre><code>yum install -y http://repo.mysql.com//mysql57-community-release-el6-8.noarch.rpm</code></pre><p>centos7.x</p><pre><code>yum install -y http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm</code></pre><h2 id="mysql安装"><a href="#mysql安装" class="headerlink" title="mysql安装"></a>mysql安装</h2><pre><code>yum install -y mysql-community-server</code></pre><h2 id="mysqlroot密码修改"><a href="#mysqlroot密码修改" class="headerlink" title="mysqlroot密码修改"></a>mysqlroot密码修改</h2><pre><code># 启动数据库service mysqld start# 查看密码cat  /var/log/mysqld.log |  grep &quot;password&quot; | grep &quot;generated&quot; # 登陆数据库mysql-uroot -p# 修改密码SET PASSWORD = PASSWORD(&#39;your new password&#39;);ALTER USER &#39;root&#39;@&#39;localhost&#39; PASSWORD EXPIRE NEVER;flush privileges;</code></pre><h2 id="mysql常用操作"><a href="#mysql常用操作" class="headerlink" title="mysql常用操作"></a>mysql常用操作</h2><p>设置字符集：</p><pre><code># 在 [mysqld] 前添加如下代码：[client]default-character-set=utf8# 在 [mysqld] 后添加如下代码：character_set_server=utf8# 重启mysql后再登录，看看字符集，6个utf8就算OKshow variables like &#39;%character%&#39;;</code></pre><p>忘记密码时，重置密码：</p><pre><code>service mysqld stopmysqld_safe --user=root --skip-grant-tables --skip-networking &amp;mysql -u root进入MySQL后use mysql;update user set password=password(&quot;new_password&quot;) where user=&quot;root&quot;; flush privileges;</code></pre><p>数据库授权：</p><pre><code>grant all privileges on *.* to uaername@&quot;%&quot; identified by &quot;new password&quot;;</code></pre><p>数据库设置密码复杂度：</p><ul><li><p>validate_password_dictionary_file: 插件用于验证密码强度的字典文件路径。</p></li><li><p>validate_password_length: 密码最小长度，参数默认为8，它有最小值的限制，最小值为：validate_password_number_count + validate_password_special_char_count + (2 * validate_password_mixed_case_count)</p></li><li><p>validate_password_mixed_case_count: 密码至少要包含的小写字母个数和大写字母个数。</p></li><li><p>validate_password_number_count: 密码至少要包含的数字个数。</p></li><li><p>validate_password_policy: 密码强度检查等级，0/LOW、1/MEDIUM、2/STRONG</p></li></ul><pre><code>修改mysql参数配置mysql&gt; set global validate_password_policy=0;Query OK, 0 rows affected (0.05 sec)mysql&gt; set global validate_password_mixed_case_count=0;Query OK, 0 rows affected (0.00 sec) mysql&gt; set global validate_password_number_count=3;Query OK, 0 rows affected (0.00 sec) mysql&gt; set global validate_password_special_char_count=0;Query OK, 0 rows affected (0.00 sec) mysql&gt; set global validate_password_length=3;Query OK, 0 rows affected (0.00 sec) mysql&gt; SHOW VARIABLES LIKE &#39;validate_password%&#39;;+--------------------------------------+-------+| Variable_name                        | Value |+--------------------------------------+-------+| validate_password_dictionary_file    |       || validate_password_length             | 3     || validate_password_mixed_case_count   | 0     || validate_password_number_count       | 3     || validate_password_policy             | LOW   || validate_password_special_char_count | 0     |+--------------------------------------+-------+6 rows in set (0.00 sec)# 修改简单密码：mysql&gt; SET PASSWORD =PASSWORD(&#39;root&#39;);mysql&gt; SET PASSWORD FOR username=PASSWORD(&#39;new password&#39;);</code></pre>]]></content>
-      
-      
-      <categories>
-          
-          <category> linux </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> mysql </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>CDH 5.15安装文档</title>
       <link href="/2018/09/04/2018-09-04-article30-linux-cdh/"/>
       <url>/2018/09/04/2018-09-04-article30-linux-cdh/</url>
@@ -436,6 +411,31 @@
         <tags>
             
             <tag> CDH </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>centos yum安装mysql5.7</title>
+      <link href="/2018/09/04/2018-09-04-article29-linux-yum-mysql/"/>
+      <url>/2018/09/04/2018-09-04-article29-linux-yum-mysql/</url>
+      
+        <content type="html"><![CDATA[<ul><li>content<br>{:toc}</li></ul><p>#centos yum安装mysql5.7</p><p>在测试开发环境，初始化一个数据库，通常选择yum来安装，本文将常见的mysqlyum源及安装方式梳理</p><h2 id="系统环境"><a href="#系统环境" class="headerlink" title="系统环境"></a>系统环境</h2><p>centos6或者centos7</p><h2 id="查看系统是否已经安装mysql"><a href="#查看系统是否已经安装mysql" class="headerlink" title="查看系统是否已经安装mysql"></a>查看系统是否已经安装mysql</h2><pre><code>rpm -qa | grep mysqlyum list installed | grep mysql</code></pre><h2 id="卸载当前数据库"><a href="#卸载当前数据库" class="headerlink" title="卸载当前数据库"></a>卸载当前数据库</h2><p>centos6.x或者centos7.x ：</p><pre><code>yum -y remove mysql*</code></pre><h2 id="mysql数据源下载"><a href="#mysql数据源下载" class="headerlink" title="mysql数据源下载"></a>mysql数据源下载</h2><p>centos6.x</p><pre><code>yum install -y http://repo.mysql.com//mysql57-community-release-el6-8.noarch.rpm</code></pre><p>centos7.x</p><pre><code>yum install -y http://repo.mysql.com/mysql57-community-release-el7-8.noarch.rpm</code></pre><h2 id="mysql安装"><a href="#mysql安装" class="headerlink" title="mysql安装"></a>mysql安装</h2><pre><code>yum install -y mysql-community-server</code></pre><h2 id="mysqlroot密码修改"><a href="#mysqlroot密码修改" class="headerlink" title="mysqlroot密码修改"></a>mysqlroot密码修改</h2><pre><code># 启动数据库service mysqld start# 查看密码cat  /var/log/mysqld.log |  grep &quot;password&quot; | grep &quot;generated&quot; # 登陆数据库mysql-uroot -p# 修改密码SET PASSWORD = PASSWORD(&#39;your new password&#39;);ALTER USER &#39;root&#39;@&#39;localhost&#39; PASSWORD EXPIRE NEVER;flush privileges;</code></pre><h2 id="mysql常用操作"><a href="#mysql常用操作" class="headerlink" title="mysql常用操作"></a>mysql常用操作</h2><p>设置字符集：</p><pre><code># 在 [mysqld] 前添加如下代码：[client]default-character-set=utf8# 在 [mysqld] 后添加如下代码：character_set_server=utf8# 重启mysql后再登录，看看字符集，6个utf8就算OKshow variables like &#39;%character%&#39;;</code></pre><p>忘记密码时，重置密码：</p><pre><code>service mysqld stopmysqld_safe --user=root --skip-grant-tables --skip-networking &amp;mysql -u root进入MySQL后use mysql;update user set password=password(&quot;new_password&quot;) where user=&quot;root&quot;; flush privileges;</code></pre><p>数据库授权：</p><pre><code>grant all privileges on *.* to uaername@&quot;%&quot; identified by &quot;new password&quot;;</code></pre><p>数据库设置密码复杂度：</p><ul><li><p>validate_password_dictionary_file: 插件用于验证密码强度的字典文件路径。</p></li><li><p>validate_password_length: 密码最小长度，参数默认为8，它有最小值的限制，最小值为：validate_password_number_count + validate_password_special_char_count + (2 * validate_password_mixed_case_count)</p></li><li><p>validate_password_mixed_case_count: 密码至少要包含的小写字母个数和大写字母个数。</p></li><li><p>validate_password_number_count: 密码至少要包含的数字个数。</p></li><li><p>validate_password_policy: 密码强度检查等级，0/LOW、1/MEDIUM、2/STRONG</p></li></ul><pre><code>修改mysql参数配置mysql&gt; set global validate_password_policy=0;Query OK, 0 rows affected (0.05 sec)mysql&gt; set global validate_password_mixed_case_count=0;Query OK, 0 rows affected (0.00 sec) mysql&gt; set global validate_password_number_count=3;Query OK, 0 rows affected (0.00 sec) mysql&gt; set global validate_password_special_char_count=0;Query OK, 0 rows affected (0.00 sec) mysql&gt; set global validate_password_length=3;Query OK, 0 rows affected (0.00 sec) mysql&gt; SHOW VARIABLES LIKE &#39;validate_password%&#39;;+--------------------------------------+-------+| Variable_name                        | Value |+--------------------------------------+-------+| validate_password_dictionary_file    |       || validate_password_length             | 3     || validate_password_mixed_case_count   | 0     || validate_password_number_count       | 3     || validate_password_policy             | LOW   || validate_password_special_char_count | 0     |+--------------------------------------+-------+6 rows in set (0.00 sec)# 修改简单密码：mysql&gt; SET PASSWORD =PASSWORD(&#39;root&#39;);mysql&gt; SET PASSWORD FOR username=PASSWORD(&#39;new password&#39;);</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
             
         </tags>
       
