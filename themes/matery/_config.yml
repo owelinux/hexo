@@ -90,17 +90,17 @@ indexbtn:
   enable: true
   name: Github
   icon: fa-github-alt
-  url: https://github.com/owelinux
+  url: https://github.com/lovek8s
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
   qq: 1132818999
-  github: owelinux
-  weibo: owelinux
+  github: lovek8s
+  weibo: lovek8s
   email: owelinux@gmail.com
-  zhihu: owelinux
+  zhihu: lovek8s
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -118,7 +118,7 @@ code:
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
-  enable: true
+  enable: false
   title: 写作不易，客官能否打赏一杯奶茶？
   wechat: /medias/reward/wechat.png
   alipay: /medias/reward/alipay.jpg
@@ -240,12 +240,12 @@ postCalendar: true
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
   enable: true
-  owner: owelinux
-  repo: godweiyang.github.io
+  owner: lovek8s
+  repo: lovek8s.github.io
   oauth:
     clientId: 查教程获取
     clientSecret: 查教程获取
-  admin: owelinux
+  admin: lovek8s
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
