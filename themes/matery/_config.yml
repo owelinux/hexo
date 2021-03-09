@@ -175,10 +175,10 @@ profile:
 myProjects:
   enable: true
   data:
-    hexo-matery-modified:
+    hbase-phoenix:
       icon: fa-meetup
       iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: https://github.com/godweiyang/hexo-matery-modified
+      url: https://github.com/lovek8s/hbase-phoenix
       desc: 我的个性化配置过的博客源码，即下即用。
     Span-Linearization-Parser:
         icon: fa-database

@@ -86,14 +86,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/archives/index.html</loc>
+    <loc>https://lovek8s.github.io/categories/index.html</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/categories/index.html</loc>
+    <loc>https://lovek8s.github.io/archives/index.html</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -135,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/</loc>
+    <loc>https://lovek8s.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/</loc>
+    <loc>https://lovek8s.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/</loc>
+    <loc>https://lovek8s.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/</loc>
+    <loc>https://lovek8s.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -219,14 +219,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/09/04/2018-09-04-article30-linux-cdh/</loc>
+    <loc>https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</loc>
+    <loc>https://lovek8s.github.io/2018/09/04/2018-09-04-article30-linux-cdh/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -247,14 +247,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/08/31/2018-08-31-article24-life-work/</loc>
+    <loc>https://lovek8s.github.io/2018/09/03/2018-09-03-article25-linux-fastdfs-1/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/09/03/2018-09-03-article25-linux-fastdfs-1/</loc>
+    <loc>https://lovek8s.github.io/2018/08/31/2018-08-31-article24-life-work/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -345,14 +345,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/08/03/2018-08-03-article11-linux-luncene/</loc>
+    <loc>https://lovek8s.github.io/2018/08/07/2018-08-07-article12-linux-srcache-nginx-module/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/08/07/2018-08-07-article12-linux-srcache-nginx-module/</loc>
+    <loc>https://lovek8s.github.io/2018/08/03/2018-08-03-article11-linux-luncene/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -431,13 +431,6 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/tags/lucene-ELK-kibana/</loc>
-    <lastmod>2021-03-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://lovek8s.github.io/tags/linux-ssh/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
@@ -446,6 +439,13 @@
   
   <url>
     <loc>https://lovek8s.github.io/tags/nginx-pika-cache/</loc>
+    <lastmod>2021-03-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovek8s.github.io/tags/lucene-ELK-kibana/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -487,13 +487,6 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2021-03-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://lovek8s.github.io/tags/fastdfs/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
@@ -501,7 +494,7 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/tags/CDH/</loc>
+    <loc>https://lovek8s.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -509,6 +502,13 @@
   
   <url>
     <loc>https://lovek8s.github.io/tags/mysql/</loc>
+    <lastmod>2021-03-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://lovek8s.github.io/tags/CDH/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
