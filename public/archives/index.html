@@ -510,7 +510,7 @@ pipline发送邮件
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/02/09/k8s-chong-qi-deployment/">
+                        <a href="/2021/02/09/k8s-cluster/">
                             <div class="card-image">
                                 
                                 
@@ -522,8 +522,10 @@ pipline发送邮件
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                K8S重启Deployment的方式有时候我们会需要重启Deployment，原因可能是：
-docker image使用的是latest tag，这个latest在docker image registry已经更新了，我们需要重启deplo
+                                Kubernetes 配置 kubeconfig 访问多个集群test集群（~/.kube/config）apiVersion: v1
+clusters:
+- cluster:
+    insecure-skip-tls-verify: t
                                 
                             </div>
                             <div class="publish-info">
@@ -558,7 +560,7 @@ docker image使用的是latest tag，这个latest在docker image registry已经�
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2021/02/09/k8s-cluster/">
+                        <a href="/2021/02/09/k8s-chong-qi-deployment/">
                             <div class="card-image">
                                 
                                 
@@ -570,10 +572,8 @@ docker image使用的是latest tag，这个latest在docker image registry已经�
                         <div class="card-content article-content">
                             <div class="summary block-with-text">
                                 
-                                Kubernetes 配置 kubeconfig 访问多个集群test集群（~/.kube/config）apiVersion: v1
-clusters:
-- cluster:
-    insecure-skip-tls-verify: t
+                                K8S重启Deployment的方式有时候我们会需要重启Deployment，原因可能是：
+docker image使用的是latest tag，这个latest在docker image registry已经更新了，我们需要重启deplo
                                 
                             </div>
                             <div class="publish-info">
@@ -666,13 +666,13 @@ clusters:
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2018/12/27/2018-12-27-article43-k8s-ingress/">
+                        <a href="/2018/12/27/2018-12-28-article44-k8s-pvc/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="kubernetes 之 Ingress 使用总结">
+                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="k8s pvc扩容">
                                 
-                                <span class="card-title">kubernetes 之 Ingress 使用总结</span>
+                                <span class="card-title">k8s pvc扩容</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
@@ -681,7 +681,8 @@ clusters:
                                 
 content{:toc}
 
-kubernetes 之 Ingress 使用总结前言Kubernetes暴露服务的方式有多种，如LoadBalancer、NodePort、Ingress等。LoadBalancer一般用于云平台，平常一般
+k8s pvc扩容https://gitlab.com/charts/gitlab/tree/master/doc/advanced/persistent-volumes
+
                                 
                             </div>
                             <div class="publish-info">
@@ -729,13 +730,13 @@ kubernetes 之 Ingress 使用总结前言Kubernetes暴露服务的方式有多�
             <article class="cd-timeline-content" data-aos="fade-up">
                 <div class="article col s12 m6">
                     <div class="card">
-                        <a href="/2018/12/27/2018-12-28-article44-k8s-pvc/">
+                        <a href="/2018/12/27/2018-12-27-article43-k8s-ingress/">
                             <div class="card-image">
                                 
                                 
-                                <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="k8s pvc扩容">
+                                <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="kubernetes 之 Ingress 使用总结">
                                 
-                                <span class="card-title">k8s pvc扩容</span>
+                                <span class="card-title">kubernetes 之 Ingress 使用总结</span>
                             </div>
                         </a>
                         <div class="card-content article-content">
@@ -744,8 +745,7 @@ kubernetes 之 Ingress 使用总结前言Kubernetes暴露服务的方式有多�
                                 
 content{:toc}
 
-k8s pvc扩容https://gitlab.com/charts/gitlab/tree/master/doc/advanced/persistent-volumes
-
+kubernetes 之 Ingress 使用总结前言Kubernetes暴露服务的方式有多种，如LoadBalancer、NodePort、Ingress等。LoadBalancer一般用于云平台，平常一般
                                 
                             </div>
                             <div class="publish-info">

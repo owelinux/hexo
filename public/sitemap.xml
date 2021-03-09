@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lovek8s.github.io/friends/index.html</loc>
+    
+    <lastmod>2021-03-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lovek8s.github.io/about/index.html</loc>
     
     <lastmod>2021-03-09</lastmod>
@@ -72,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/friends/index.html</loc>
-    
-    <lastmod>2021-02-09</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://lovek8s.github.io/tags/index.html</loc>
     
     <lastmod>2021-02-09</lastmod>
@@ -135,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/</loc>
+    <loc>https://lovek8s.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/12/27/2018-12-28-article44-k8s-pvc/</loc>
+    <loc>https://lovek8s.github.io/2018/12/27/2018-12-27-article43-k8s-ingress/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -177,14 +177,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/</loc>
+    <loc>https://lovek8s.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/09/19/2018-09-19-article36-linux-docker-02/</loc>
+    <loc>https://lovek8s.github.io/2018/09/12/2018-09-12-article35-linux-docker-01/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -219,14 +219,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</loc>
+    <loc>https://lovek8s.github.io/2018/09/04/2018-09-04-article30-linux-cdh/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/09/04/2018-09-04-article30-linux-cdh/</loc>
+    <loc>https://lovek8s.github.io/2018/09/04/2018-09-04-article29-linux-yum-mysql/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -268,14 +268,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/08/30/2018-08-30-article22-linux-convirt/</loc>
+    <loc>https://lovek8s.github.io/2018/08/31/2018-08-31-article23-linux-convirt-create/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/08/31/2018-08-31-article23-linux-convirt-create/</loc>
+    <loc>https://lovek8s.github.io/2018/08/30/2018-08-30-article22-linux-convirt/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -303,14 +303,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/08/23/2018-08-23-article17-linux-update-es/</loc>
+    <loc>https://lovek8s.github.io/2018/08/22/2018-08-22-article16-linux-elk/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/2018/08/22/2018-08-22-article16-linux-elk/</loc>
+    <loc>https://lovek8s.github.io/2018/08/23/2018-08-23-article17-linux-update-es/</loc>
     
     <lastmod>2021-02-09</lastmod>
     
@@ -501,14 +501,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/tags/mysql/</loc>
+    <loc>https://lovek8s.github.io/tags/CDH/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/tags/CDH/</loc>
+    <loc>https://lovek8s.github.io/tags/mysql/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -550,14 +550,14 @@
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/tags/%E8%BF%90%E7%BB%B4%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://lovek8s.github.io/tags/lnmp/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://lovek8s.github.io/tags/lnmp/</loc>
+    <loc>https://lovek8s.github.io/tags/%E8%BF%90%E7%BB%B4%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2021-03-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
